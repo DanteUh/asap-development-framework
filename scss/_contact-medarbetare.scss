@@ -1,0 +1,108 @@
+//Layout for medarbetarnas kort
+.contact-main {
+    display: flex;
+    align-items: center;
+    //Mobil - 1 kolumn
+    @media (max-width: 40rem) {
+        flex-flow: column nowrap;
+        .contact-card {
+            width: auto;
+        }
+    }
+    //2-3 kolumner
+    @media (min-width: 40rem) {
+        flex-flow: column wrap;
+        height: 50rem;
+        align-content: space-around;
+        .contact-card {
+            width: auto;
+        }
+    }
+}
+
+// Flyttar Sonic vid 2- och 3-kolumnersläget
+.sonic {
+    @media (min-width: 40rem) and (max-width: 60rem) {
+        order: 4;
+    }
+    @media (min-width: 60rem) {
+        padding-top: 9.25rem;
+    }
+}
+
+//Flyttar Daniel vid 3-kolumnersläget
+.daniel {
+    @media (min-width: 60rem) {
+        padding-top: 9.25rem;
+    }
+}
+
+//Extra smoke-färgat utrymme under kontaktrutorna. 
+.contact-background {
+    padding-bottom: 4rem;
+}
+
+.contact-section {
+    p {
+        font-size: 1.125rem;
+        line-height: 2;
+    }
+}
+
+//Varje kontaktruta
+.contact-card {
+    display: flex;
+    flex-direction: column;
+    //width: 19.5625rem;
+    margin-bottom: 1.5rem;
+}
+
+//Rutorna för text till kontaktrutorna
+.contact-card-inner {
+    //width: 19.5625rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1.5625rem;
+    padding-bottom: 1.9375rem;
+    a,
+    i {
+        color: darkslategray;    //$gray-dark;
+    }
+}
+
+//Annorlunda marginaler för text
+.contact-title {
+    color: #777777;
+    margin: 0rem 0rem 0.875rem 0rem;
+}
+
+.contact-heading {
+    font-size: 1.5rem;
+    margin: 0;
+    color: red; //$red
+}
+
+//Resize:a ikoner
+.contact-card-inner div i {
+    font-size: 1.3rem;
+}
+
+#contact-heading {
+    padding-bottom: 6rem;
+    padding-top: 5.75rem;
+    @media (min-width: 60rem) {
+        padding-top: 9.375rem;
+        padding-bottom: 3.75rem;
+    }
+}
+
+//Se till att kontaktrutorna inte flyter iväg
+#contact-media-query-squasher {
+    @media (min-width: 40rem) and (max-width: 60rem) {
+        height: 42rem;
+    }
+    @media (min-width: 60rem) {
+        height: 42rem;
+    }
+}
