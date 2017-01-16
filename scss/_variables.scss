@@ -64,6 +64,18 @@ $spacers: (
     y: ($spacer-y * 3)
   )
 ) !default;
+$border-width: 1px !default;
+
+// This variable affects the `.h-*` and `.w-*` classes.
+$sizes: (
+  25: 25%,
+  50: 50%,
+  75: 75%,
+  100: 100%
+) !default;
+
+$body-bg:       #fff;
+$body-color:    #333;
 
 // Links
 //
@@ -73,6 +85,25 @@ $link-color:            $brand-primary !default;
 $link-decoration:       none !default;
 $link-hover-color:      darken($link-color, 15%) !default;
 $link-hover-decoration: underline !default;
+
+// Grid containers
+//
+// Define the maximum width of `.container` for different screen sizes.
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 970px,
+  xl: 1140px
+) !default;
+//@include _assert-ascending($container-max-widths, "$container-max-widths");
+
+// Grid columns
+//
+// Set the number of columns and specify the width of the gutters.
+
+$grid-columns:               12 !default;
+$grid-gutter-width-base:     32px !default;
 
 // Fonts
 //
@@ -102,29 +133,6 @@ $font-size-h6: 1rem !default;
 $headings-font-family:   'Ruda', -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !default;
 $headings-font-weight:   400;
 $headings-margin-bottom: ($spacer / 2) !default;
-
-$body-bg:       #fff;
-$body-color:    #333;
-
-
-// Grid containers
-//
-// Define the maximum width of `.container` for different screen sizes.
-
-$container-max-widths: (
-  sm: 540px,
-  md: 720px,
-  lg: 970px,
-  xl: 1140px
-) !default;
-//@include _assert-ascending($container-max-widths, "$container-max-widths");
-
-// Grid columns
-//
-// Set the number of columns and specify the width of the gutters.
-
-$grid-columns:               12 !default;
-$grid-gutter-width-base:     32px !default;
 
 // Jumbotron
 

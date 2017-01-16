@@ -2,13 +2,13 @@
 <html lang="sv">
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<title>ASAP Development</title>
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
 </head>
 <body class="hem">
-	<nav class="navbar navbar-inverse sticky-top navbar-toggleable-sm bg-primary">
+	<nav class="navbar navbar-inverse fixed-top navbar-toggleable-sm bg-transparent">
 		<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
@@ -31,46 +31,47 @@
 	</nav>
 	<!-- /End nav section -->
 	<!--- header-section-->
+	<header>
+		<div id="index-bg" class="text-white text-center">
+			<div class="main-headline-box">
+				<div class="headline-margin container-col-mobile">
+					<h1 class="display-3 transparent-text text-center">Snabb.&nbsp</h1>
+					<h1 class="display-3 transparent-text text-center">Snabbare.&nbsp</h1>
+					<h1 class="display-3 transparent-text text-center">Asap!</h1>
+				</div>
+				<img id="large-flash" class="flash-before" src="images/icons/icon-flat3d-flash.svg" alt="flash">
+				<img id="small-flash" class="flash-before" src="images/icons/icon-flat3d-flash.svg" alt="flash">
 
-    <header>
-		<div d="index-bg" class="jumbotron jumbotron-fluid bg-danger text-white">
-		  <div class="text-center">
-            <h1 class="display-3 transparent-text text-center">Snabb.&nbsp</h1>
-            <h1 class="display-3 transparent-text text-center">Snabbare.&nbsp</h1>
-            <h1 class="display-3 transparent-text text-center">Asap!</h1>
-            <!--
-            <img id="large-flash" class="flash-before" src="images/icons/icon-flat3d-flash.svg" alt="flash">
-            <img id="small-flash" class="flash-before" src="images/icons/icon-flat3d-flash.svg" alt="flash">
-            -->
-            <svg class="header-diagonal-top" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 100 10" preserveaspectratio="none">
-                <polygon class="bg-red" points="100 0 100 10 0 10" /> </svg>
-		    <p class="lead">ASAP Development är webbyrån som bygger din sajt på 24 timmar.
-                    <br>Med högsta kvalitet och full support.</p>
-		  </div>
-		</div>
-    </header>
+			</div>
+			<svg class="header-diagonal-top" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 100 10" preserveaspectratio="none">
+				<polygon class="bg-red" points="100 0 100 10 0 10" /> </svg>
+				<div class="header-diagonal-bottom bg-red well">
+					<p class="lead">ASAP Development är webbyrån som bygger din sajt på 24 timmar.
+						<br>Med högsta kvalitet och full support.</p>
+					</div>
+				</div>
+			</header>
 <!-- /end header section -->
 
-    <!--- 
-    <section class="bg-white om-oss section-padding-md">
-        <div class="grid-container">
+    <section class="bg-white om-oss pt-5 pb-5">
+        <div class="container">
             <h2 class="section-heading text-center">Därför är vi Sveriges snabbaste webbyrå</h2>
-            <div class="container marketing-list">
-                <div class="col-4 marketing-item">
+            <div class="row marketing-list">
+                <div class="col-md-4 marketing-item">
                     <div class="marketing-image"> <img class="svg-icon" src="images/icons/icon-flat3d-arrow.svg" onerror="this.onerror=null; this.src='image.png'"> </div>
                     <div class="well">
                         <h3 class="marketing-heading">Effektivt</h3>
                         <p>Inga möten. Inga fikapauser. Inget julbord. Vi jobbar.</p>
                     </div>
                 </div>
-                <div class="col-4 bg-green marketing-item">
+                <div class="col-md-4 bg-green marketing-item">
                     <div class="marketing-image"> <img class="svg-icon" src="images/icons/icon-flat3d-bullseye.svg" onerror="this.onerror=null; this.src='image.png'"> </div>
                     <div class="well">
                         <h3 class="marketing-heading">Globalt</h3>
                         <p>Medarbetare i fem tidszoner gör att flitens lampa alltid lyser på ASAP.</p>
                     </div>
                 </div>
-                <div class="col-4 marketing-item">
+                <div class="col-md-4 marketing-item">
                     <div class="marketing-image"> <img class="svg-icon" src="images/icons/icon-flat3d-bars.svg" onerror="this.onerror=null; this.src='image.png'"> </div>
                     <div class="well">
                         <h3 class="marketing-heading">Flexibelt</h3>
@@ -79,11 +80,13 @@
                 </div>
             </div>
         </div>
-        <div class="grid-container">
-            <a href="views/vad-vi-gor.html" class="center-block btn btn-green">Så jobbar vi</a>
+        <div class="container">
+        	<div class="mx-auto">
+        		<a href="views/vad-vi-gor.html" class="btn btn-lg btn-success">Så jobbar vi</a>
+        	</div>
         </div>
     </section>
--->
+
  	<!--
     <section class="projekt bg-smoke section-padding-sm">
         <h2 class="section-heading text-center">Våra projekt</h2>
@@ -199,29 +202,27 @@
     </section>
 -->
 
-		<footer>
-			<div class="bg-blue">
-				<div class="container-fluid">
-					<div class="row">
-						<div class="col-md-4">
-							<h4>ASAP DEVELOPMENT</h4>
-							<address>
-								Tomtebodavägen 3A<br>
-								171 65 Solna<br>
-								info@asapdev.se<br>
-								+46 8 466 60 00
-							</address>
+		<footer class="bg-blue">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-4">
+						<h4>ASAP DEVELOPMENT</h4>
+						<address>
+							Tomtebodavägen 3A<br>
+							171 65 Solna<br>
+							info@asapdev.se<br>
+							+46 8 466 60 00
+						</address>
 
-						</div>
-						<div class="col-md-8"></div>
 					</div>
-					<ul class="pull-left ul-social list-unstyled list-inline">
-						<li><i class="fa fa-facebook-square"></i> <a href="#">Facebook</a></li>
-						<li><i class="fa fa-twitter"></i> <a href="#">Twitter</a></li>
-						<li><i class="fa fa-instagram"></i> <a href="#">Instagram</a></li>
-					</ul>
-					<a href="#" class="pull-right btn btn-primary btn-to-top"><i class="fa fa-angle-up"></i> </a>
+					<div class="col-md-8"></div>
 				</div>
+				<ul class="pull-left ul-social list-unstyled list-inline">
+					<li><i class="fa fa-facebook-square"></i> <a href="#">Facebook</a></li>
+					<li><i class="fa fa-twitter"></i> <a href="#">Twitter</a></li>
+					<li><i class="fa fa-instagram"></i> <a href="#">Instagram</a></li>
+				</ul>
+				<a href="#" class="pull-right btn btn-primary btn-to-top"><i class="fa fa-angle-up"></i> </a>
 			</div>
 		</footer>
 
