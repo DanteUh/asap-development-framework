@@ -5988,6 +5988,26 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
   .hidden-print {
     display: none !important; } }
 
+.site-logo {
+  float: left;
+  padding: 1.1rem 1rem 0.70rem 1rem; }
+
+#logo {
+  width: 80px; }
+
+#hamburger {
+  display: block;
+  float: right;
+  margin: 1.0938rem 1rem 0.9062rem 1rem;
+  width: 24px; }
+
+#hamburger,
+#logo {
+  transition: 0.5s linear; }
+  #hamburger:hover,
+  #logo:hover {
+    transform: scale(1.05); }
+
 footer {
   background-color: #324d5c;
   color: #fff;

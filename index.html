@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="sv">
-
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -8,86 +7,49 @@
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
 </head>
-
 <body class="hem">
-	<nav class="navbar navbar-inverse navbar-fixed-top">
-		<div class="container">
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-				<a class="navbar-brand" href="#">Project name</a>
-			</div>
-			<div id="navbar" class="collapse navbar-collapse">
-				<ul class="nav navbar-nav">
-					<li class="active"><a href="#">Home</a></li>
-					<li><a href="#about">About</a></li>
-					<li><a href="#contact">Contact</a></li>
-				</ul>
-			</div><!--/.nav-collapse -->
+	<nav class="navbar navbar-inverse sticky-top navbar-toggleable-sm bg-primary">
+		<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<a class="navbar-brand" href="#"><img id="logo" src="images/svg/asap-logo-02.svg" alt="ASAP logo"></a>
+
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto navbar-right">
+				<li class="nav-item active">
+					<a class="nav-link" href="views/vad-vi-gor.html">Vad vi gör</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="views/kundcase.html">Kundcase</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="views/kontakt.html">Kontakt</a>
+				</li>
+			</ul>
 		</div>
 	</nav>
+	<!-- /End nav section -->
+	<!--- header-section-->
 
-	<!-- Nav section -->
-
-    <!--
-    <nav class="navbar clearfix">
-        <div id="nav-bg-wrapper">
-            <div id="nav-top-row" class="clearfix">
-                <a class="site-logo" href="index.html">
-                    <img id="logo" src="images/svg/asap-logo-02.svg" alt="ASAP logo">
-                </a>
-
-                <ul class="nav-list clearfix">
-                    <li><a href="views/vad-vi-gor.html">Vad vi gör</a></li>
-                    <li><a href="views/kundcase.html">Kundcase</a></li>
-                    <li><a href="views/kontakt.html">Kontakt</a></li>
-                </ul>
-                <a id="hamburger" href="#" class="nav-collapse">
-                    <img src="images/svg/icon-hamburger.svg" alt="hamburger menu">
-                </a>
-            </div>
-        </div>
-        <div id="menu-up" class="nav-menu lead bg-green">
-            <ul class="menu-list">
-                <li class="lead"><a href="views/vad-vi-gor.html">Vad vi gör</a></li>
-                <li class="lead"><a href="views/kundcase.html">Kundcase</a></li>
-                <li class="lead"><a href="views/kontakt.html">Kontakt</a></li>
-            </ul>
-        </div>
-        <script type="text/javascript" src="js/nav.js"></script>
-    </nav>
--->
-
-<!-- //End nav section -->
-<!--- header-section-->
-
-    <!--- 
     <header>
-        <div class="bg-red" id="index-bg">
-            <div class="main-headline-box">
-                <div class="headline-margin container-col-mobile">
-                    <h1 class="transparent-text text-center">Snabb.&nbsp</h1>
-                    <h1 class="transparent-text text-center">Snabbare.&nbsp</h1>
-                    <h1 class="transparent-text text-center">Asap!</h1>
-                </div>
-                <img id="large-flash" class="flash-before" src="images/icons/icon-flat3d-flash.svg" alt="flash">
-                <img id="small-flash" class="flash-before" src="images/icons/icon-flat3d-flash.svg" alt="flash">
-            </div>
+		<div d="index-bg" class="jumbotron jumbotron-fluid bg-red">
+		  <div class="text-center">
+            <h1 class="display-3 transparent-text text-center">Snabb.&nbsp</h1>
+            <h1 class="display-3 transparent-text text-center">Snabbare.&nbsp</h1>
+            <h1 class="display-3 transparent-text text-center">Asap!</h1>
+            <!--
+            <img id="large-flash" class="flash-before" src="images/icons/icon-flat3d-flash.svg" alt="flash">
+            <img id="small-flash" class="flash-before" src="images/icons/icon-flat3d-flash.svg" alt="flash">
+            -->
             <svg class="header-diagonal-top" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 100 10" preserveaspectratio="none">
                 <polygon class="bg-red" points="100 0 100 10 0 10" /> </svg>
-            <div class="header-diagonal-bottom bg-red well">
-                <p class="lead white-text text-center headline-margin">ASAP Development är webbyrån som bygger din sajt på 24 timmar.
+		    <p class="lead">ASAP Development är webbyrån som bygger din sajt på 24 timmar.
                     <br>Med högsta kvalitet och full support.</p>
-            </div>
-        </div>
+		  </div>
+		</div>
     </header>
--->
-
 <!-- /end header section -->
+
     <!--- 
     <section class="bg-white om-oss section-padding-md">
         <div class="grid-container">
@@ -236,38 +198,35 @@
     </section>
 -->
 
+		<footer>
+			<div class="bg-blue">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-md-4">
+							<h4>ASAP DEVELOPMENT</h4>
+							<address>
+								Tomtebodavägen 3A<br>
+								171 65 Solna<br>
+								info@asapdev.se<br>
+								+46 8 466 60 00
+							</address>
 
-<footer>
-	<div class="bg-blue">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-4">
-					<h4>ASAP DEVELOPMENT</h4>
-                        <address>
-                        Tomtebodavägen 3A<br>
-                        171 65 Solna<br>
-                        info@asapdev.se<br>
-                        +46 8 466 60 00
-                    </address>
-
+						</div>
+						<div class="col-md-8"></div>
 					</div>
-					<div class="col-md-8"></div>
+					<ul class="pull-left ul-social list-unstyled list-inline">
+						<li><i class="fa fa-facebook-square"></i> <a href="#">Facebook</a></li>
+						<li><i class="fa fa-twitter"></i> <a href="#">Twitter</a></li>
+						<li><i class="fa fa-instagram"></i> <a href="#">Instagram</a></li>
+					</ul>
+					<a href="#" class="pull-right btn btn-primary btn-to-top"><i class="fa fa-angle-up"></i> </a>
 				</div>
-				<ul class="ul-social list-unstyled list-inline">
-					<li><i class="fa fa-facebook-square"></i> <a href="#">Facebook</a></li>
-					<li><i class="fa fa-twitter"></i> <a href="#">Twitter</a></li>
-					<li><i class="fa fa-instagram"></i> <a href="#">Instagram</a></li>
-				</ul>
-				<a href="#" class="center-block btn btn-to-top"><i class="fa fa-angle-up"></i> </a>
 			</div>
-		</div>
-	</footer>
-	<script src="js/jquery/jquery.js"></script>
-	<script src="js/tether.js"></script>
-	<script src="js/bootstrap.js"></script>
-	<script src="js/main.js"></script>
+		</footer>
 
-
-</body>
-
+		<script src="js/jquery/jquery.js"></script>
+		<script src="js/tether.js"></script>
+		<script src="js/bootstrap.js"></script>
+		<script src="js/main.js"></script>
+	</body>
 </html>
