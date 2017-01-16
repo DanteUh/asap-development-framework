@@ -1,0 +1,102 @@
+//Buttons
+.btn {
+    //@include flex-center;
+    display: block;
+    margin-bottom: 0; // For input.btn
+    background-color: transparent;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none; // Reset unusual Firefox-on-Android default style; see https://github.com/necolas/normalize.css/issues/214
+    white-space: nowrap;
+    border-radius: $border-radius-base;
+    border: $btn-border-width white solid;
+    border-bottom: $btn-border-bottom-width white solid;
+    color: white;
+    font-weight: 400;
+    font-size: 1.125rem;
+    padding: 0.7rem $main-padding;
+    text-transform: uppercase;
+    width: 18rem;
+    &,
+    &:active {
+        &:focus {
+            @include tab-focus;
+            outline-color: $red;
+        }
+    }
+    &:active {
+        outline: 0;
+        background-image: none;
+        box-shadow: none;
+    }
+}
+
+.btn-submit {
+    color: $red;
+    background-color: white;
+    border-radius: $border-radius-base;
+    border-color: $red;
+    border-bottom-color: $red;
+    width: 100%;
+}
+
+.btn-submit:hover {
+    color: white;
+    background-color: $red;
+    border-bottom-color: darken($red, 15%);
+    transition: 0.5s;
+}
+
+.btn-to-top {
+    border-bottom-color: white;
+    border-radius: $border-radius-base;
+    font-size: 2rem;
+    line-height: 1;
+    padding: 0;
+    color: white;
+    margin-top: $main-margin*2;
+    margin-bottom: -$main-margin*1.5;
+    width: 2.5rem;
+}
+
+.btn-to-top:hover {
+    background-color: white;
+    transition: 0.5s;
+}
+
+.btn-to-top i {
+    line-height: 2rem;
+}
+
+.btn-to-top i:hover {
+    color: $gray-dark;
+}
+
+.btn-green {
+    color: $green;
+    border-color: $green;
+}
+
+.btn-green:hover {
+    color: white;
+    background-color: $green;
+    border-bottom-color: darken($green, 15%);
+    transition: 0.5s;
+}
+
+.btn-yellow {
+    color: $yellow;
+    border-color: $yellow;
+}
+
+.btn-gray-dark {
+    color: $gray-dark;
+    border-color: $gray-dark;
+}
+
+.btn-red {
+    color: $red;
+    border-color: $red;
+}

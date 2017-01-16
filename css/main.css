@@ -6736,12 +6736,12 @@ address {
 .contact-main {
   display: flex;
   align-items: center; }
-  @media (max-width: 40rem) {
+  @media (max-width: 48rem) {
     .contact-main {
       flex-flow: column nowrap; }
       .contact-main .contact-card {
         width: auto; } }
-  @media (min-width: 40rem) {
+  @media (min-width: 48rem) {
     .contact-main {
       flex-flow: column wrap;
       height: 50rem;
@@ -6749,14 +6749,14 @@ address {
       .contact-main .contact-card {
         width: auto; } }
 
-@media (min-width: 40rem) and (max-width: 60rem) {
+@media (min-width: 48rem) {
   .sonic {
     order: 4; } }
-@media (min-width: 60rem) {
+@media (min-width: 62rem) {
   .sonic {
     padding-top: 9.25rem; } }
 
-@media (min-width: 60rem) {
+@media (min-width: 62rem) {
   .daniel {
     padding-top: 9.25rem; } }
 
@@ -6768,9 +6768,10 @@ address {
   line-height: 2; }
 
 .contact-card {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 1.5rem; }
+  margin-bottom: 6rem; }
+
+.contact-img {
+  width: 19.5625rem; }
 
 .contact-card-inner {
   display: flex;
@@ -6789,7 +6790,7 @@ address {
 .contact-heading {
   font-size: 1.5rem;
   margin: 0;
-  color: red; }
+  color: #d9534f; }
 
 .contact-card-inner div i {
   font-size: 1.3rem; }
@@ -6797,17 +6798,14 @@ address {
 #contact-heading {
   padding-bottom: 6rem;
   padding-top: 5.75rem; }
-  @media (min-width: 60rem) {
+  @media (min-width: 62rem) {
     #contact-heading {
       padding-top: 9.375rem;
       padding-bottom: 3.75rem; } }
 
-@media (min-width: 40rem) and (max-width: 60rem) {
+@media (min-width: 48rem) {
   #contact-media-query-squasher {
-    height: 42rem; } }
-@media (min-width: 60rem) {
-  #contact-media-query-squasher {
-    height: 42rem; } }
+    height: 48rem; } }
 
 /*
 .cirkel {
@@ -6939,6 +6937,158 @@ address {
   @media (min-width: 768px) {
     #contact-story-positioner {
       flex-flow: row nowrap; } }
+
+header {
+  width: 100%;
+  height: 100vh;
+  transition: all 0.5s ease; }
+  @media screen and (min-width: 480px) {
+    header {
+      height: 80vh; } }
+
+.main-headline-box {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  align-content: center;
+  justify-content: flex-end;
+  flex-direction: column; }
+  @media screen and (min-width: 550px) {
+    .main-headline-box {
+      height: 100%; } }
+
+.header-diagonal-top {
+  display: block;
+  width: 100%;
+  height: 22%; }
+
+.header-diagonal-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 28%; }
+
+.hem .header-diagonal-bottom p {
+  margin-top: -2rem; }
+  @media screen and (min-width: 480px) {
+    .hem .header-diagonal-bottom p {
+      margin-top: 0.75rem; } }
+
+#large-flash {
+  width: 57px;
+  height: auto;
+  align-self: center;
+  display: none;
+  transition: opacity 1s ease-in-out; }
+  @media screen and (min-width: 550px) {
+    #large-flash {
+      display: block; } }
+
+#small-flash {
+  position: absolute;
+  right: 16px;
+  bottom: 30%;
+  width: 38px;
+  height: auto;
+  position: -100px;
+  transition: all 1s ease-in-out; }
+  @media screen and (min-width: 550px) {
+    #small-flash {
+      display: none; } }
+
+.flash-before {
+  opacity: 0; }
+
+.flash-after {
+  opacity: 1; }
+
+#index-bg {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), transparent), url("../images/img/header-desktop-hem-3@2x.jpg");
+  background-position: center top;
+  position: relative;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  height: 100%;
+  width: 100%;
+  min-width: 100%;
+  min-height: 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  align-content: center;
+  justify-content: flex-end;
+  flex-direction: column; }
+  @media only screen and (min-width: 768px) {
+    #index-bg {
+      background-attachment: fixed; } }
+
+#vad-vi-gor-bg {
+  background-image: url("../images/img/header-desktop-vad-vi-gor@2x.jpg");
+  background-position: center bottom 75px;
+  position: relative;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  height: 100%;
+  width: 100%;
+  min-width: 100%;
+  min-height: 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  align-content: center;
+  justify-content: flex-end;
+  flex-direction: column; }
+  @media only screen and (min-width: 768px) {
+    #vad-vi-gor-bg {
+      background-attachment: fixed; } }
+
+#kundcase-bg {
+  background-image: url("../images/img/header-mobile-kundcase@2x.jpg");
+  background-position: center left;
+  position: relative;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  height: 100%;
+  width: 100%;
+  min-width: 100%;
+  min-height: 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  align-content: center;
+  justify-content: flex-end;
+  flex-direction: column; }
+  @media screen and (min-width: 480px) {
+    #kundcase-bg {
+      background-image: url("../images/img/header-desktop-kundcase@2x.jpg"); } }
+  @media only screen and (min-width: 768px) {
+    #kundcase-bg {
+      background-attachment: fixed; } }
+  @media screen and (min-width: 1280px) {
+    #kundcase-bg {
+      background-position: center bottom; } }
+
+#kontakt-bg {
+  position: relative;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  height: 100%;
+  width: 100%;
+  min-width: 100%;
+  min-height: 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  align-content: center;
+  justify-content: flex-end;
+  flex-direction: column;
+  background-position: center bottom;
+  background-image: url("../images/img/header-desktop-kontakt@2x.jpg"); }
 
 .nav-link {
   text-transform: uppercase; }
