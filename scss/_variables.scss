@@ -1,3 +1,43 @@
+// Colors
+//
+// Grayscale and brand colors for use across Bootstrap.
+
+// Start with assigning color names to specific hex values.
+
+$white:  #fff !default;
+$black:  #000 !default;
+$red:    #df5a49 !default;
+$orange: #e27a3f !default;
+$yellow: #efc94c !default;
+$green:  #45b29d !default;
+$blue:   #324d5c !default;
+
+// Create grayscale
+$gray-dark:                 #333 !default;
+$gray:                      #464a4c !default;
+$gray-light:                #636c72 !default;
+
+$gray-lighter:              #e8e8e8 !default;
+
+$gray-lightest:             #f7f7f9 !default;
+
+// Reassign color vars to semantic color scheme
+$brand-primary:             $blue !default;
+$brand-success:             $green !default;
+//$brand-info:                $teal !default;
+$brand-warning:             $orange !default;
+$brand-danger:              $red !default;
+$brand-inverse:             $gray-dark !default;
+
+// Links
+//
+// Style anchor elements.
+
+$link-color:            $brand-primary !default;
+$link-decoration:       none !default;
+$link-hover-color:      darken($link-color, 15%) !default;
+$link-hover-decoration: underline !default;
+
 // Fonts
 //
 // Font, line-height, and color for body text, headings, and more.
@@ -6,18 +46,44 @@ $font-family-sans-serif: 'Open Sans', -apple-system, system-ui, BlinkMacSystemFo
 $font-family-base:       $font-family-sans-serif !default;
 
 $font-size-base: 1rem !default; // Assumes the browser default, typically `16px`
-$font-size-lg:   1.25rem !default;
+$font-size-lg:   1.125rem !default;
 $font-size-sm:   .875rem !default;
 $font-size-xs:   .75rem !default;
 
 $font-weight-normal: normal !default;
 $font-weight-bold: bold !default;
 
-$font-weight-base: $font-weight-normal !default;
+$font-weight-base: 300 !default;
 $line-height-base: 1.5 !default;
+
+$font-size-h1: 3rem !default;
+$font-size-h2: 2.25rem !default;
+$font-size-h3: 1.875rem !default;
+$font-size-h4: 1.5rem !default;
+$font-size-h5: 1.25rem !default;
+$font-size-h6: 1rem !default;
 
 $headings-font-family:   'Ruda', -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !default;;
 $headings-font-weight:   400;
 
 $body-bg:       #fff;
 $body-color:    #333;
+
+// Grid containers
+//
+// Define the maximum width of `.container` for different screen sizes.
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 970px,
+  xl: 1140px
+) !default;
+//@include _assert-ascending($container-max-widths, "$container-max-widths");
+
+// Grid columns
+//
+// Set the number of columns and specify the width of the gutters.
+
+$grid-columns:               12 !default;
+$grid-gutter-width-base:     32px !default;
