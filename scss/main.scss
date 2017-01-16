@@ -2,6 +2,13 @@
 @import 'variables';
 @import 'bootstrap/bootstrap';
 @import 'mixins';
+@import 'images';
+@import 'backgrounds';
+@import 'nav';
+@import 'footer';
 @import 'contact-medarbetare';
 @import 'shapes';
 @import 'contact-misc';
+.nav-link {
+    text-transform: uppercase;
+}
