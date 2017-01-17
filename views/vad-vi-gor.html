@@ -3,274 +3,255 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>ASAP Development - Vad vi gör</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>ASAP Development - Så jobbar vi</title>
     <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="../fonts/font-awesome/css/font-awesome.min.css">
 </head>
 
-<body>
-    <!-- Nav section -->
-    <nav class="navbar clearfix">
-        <div id="nav-bg-wrapper">
-            <div id="nav-top-row" class="clearfix">
-                <a class="site-logo" href="../index.html">
-                    <img id="logo" src="../images/svg/asap-logo-02.svg" alt="ASAP logo">
-                </a>
+<body class="hem">
+    <!-- nav section -->
+    <div id="siteNav" class="">
+        <nav class="navbar navbar-inverse fixed-top navbar-toggleable-sm bg-transparent">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"><img src="../images/svg/icon-hamburger.svg" alt="hamburger menu"></span>
+			</button>
+            <a class="navbar-brand" href="#"><img id="logo" src="../images/svg/asap-logo-02.svg" alt="ASAP logo"></a>
 
-                <ul class="nav-list clearfix">
-                    <li class="active"><a href="vad-vi-gor.html">Vad vi gör</a></li>
-                    <li><a href="kundcase.html">Kundcase</a></li>
-                    <li><a href="kontakt.html">Kontakt</a></li>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="mr-auto"></div>
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="vad-vi-gor.html">Vad vi gör</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="kundcase.html">Kundcase</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="kontakt.html">Kontakt</a>
+                    </li>
                 </ul>
-                <a id="hamburger" href="#" class="nav-collapse">
-                    <img src="../images/svg/icon-hamburger.svg" alt="hamburger menu">
-                </a>
             </div>
-        </div>
-        <div id="menu-up" class="nav-menu lead bg-green">
-            <ul class="menu-list">
-                <li class="lead"><a href="vad-vi-gor.html">Vad vi gör</a></li>
-                <li class="lead"><a href="kundcase.html">Kundcase</a></li>
-                <li class="lead"><a href="kontakt.html">Kontakt</a></li>
-            </ul>
-        </div>
-        <script src="../js/nav.js"></script>
-    </nav>
-    <!-- //End nav section -->
+        </nav>
+    </div>
+    <!-- /END nav section -->
     <!--- header-section-->
-    <header id="header-vadvigor">
-        <div class="bg-red" id="vad-vi-gor-bg">
-            <div class="main-headline-box">
-                <h1 class="white-text text-center headline-margin">Brinner det i knutarna?</h1>
-                <img id="large-flash" src="../images/icons/icon-flat3d-flash.svg" alt="flash">
-                <img id="small-flash" src="../images/icons/icon-flat3d-flash.svg" alt="flash">
+    <header>
+        <div id="vad-vi-gor-bg" class="text-white text-center">
+            <div class="main-headline-box d-flex align-content-center justify-content-end flex-column">
+                <div class="headline-margin d-flex align-content-center justify-content-center flex-column flex-sm-row">
+                    <h1 class="text-center">Brinner det i knutarna?</h1>
+                </div>
+                <img id="large-flash" class="flash-before align-self-center" src="../images/icons/icon-flat3d-flash.svg" alt="flash">
+                <img id="small-flash" class="flash-before" src="../images/icons/icon-flat3d-flash.svg" alt="flash">
             </div>
-
             <svg class="header-diagonal-top" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 100 10" preserveaspectratio="none">
-                <polygon class="bg-red" points="100 0 100 10 0 10" />
-            </svg>
-
-            <div class="header-diagonal-bottom bg-red">
-                <p class="lead white-text text-center headline-margin">Vi vet att tiden är våra kunders största bristvara. Och vi har lösningen.</p>
+				<polygon class="bg-red" points="100 0 100 10 0 10" />
+			</svg>
+            <div class="header-diagonal-bottom bg-red d-flex align-items-center justify-content-center flex-row p-5">
+                <p class="lead mt-2">Vi vet att tiden är våra kunders största bristvara. Och vi har lösningen.</p>
             </div>
         </div>
     </header>
-    <!-- //end header section -->
-    <section class="bg-white section-padding-md">
-        <div class="grid-container">
-            <div class="container">
-                <div class="col-7 lg-body-text container-col">
+    <!-- /end header section -->
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-sx-12 col-md-6">
                     <p>I en värld som snurrar allt snabbare kan förutsättningarna förändras över en natt.</p>
                     <p>Då behövs en webbyrå som agerar utan att blinka. Det är därför ASAP Development finns.</p>
                 </div>
-                <div class="col-4">
-                    <div class="circle bg-red lg-body-text-static hide-on-mobile hide-on-tablet">
-                        <div class="inner-circle well container-col">
-                            <p class="text-center">Vi levererar din sajt på <br><b>24 timmar</b>. Med högsta kvalitet och full support.</p>
-                        </div>
-                    </div>
+                <div class="col-md-6 hidden-sm-down bg-red">
+                    <p class="text-center">Vi levererar din sajt på <br><b>24 timmar</b>. Med högsta kvalitet och full support.</p>
                 </div>
             </div>
-        </div>
-        <div class="hide-on-desktop">
-            <svg class="header-diagonal-top hide-on-desktop" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 100 10" preserveaspectratio="none">
+            <div class="col-sx-6 hidden-md-up">
+                <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 100 10" preserveaspectratio="none">
                 <polygon class="bg-red" points="0 0 100 10 0 10" />
-            </svg>
-            <div class="bg-red">
-                <div class="well">
-                    <p class="white-text text-center lg-body-text-static">Vi levererar din sajt på <b>24 timmar</b>. Med högsta kvalitet och full support.</p>
+                </svg>
+                <div class="col-sx-12 bg-red">
+                    <p class="white-text">Vi levererar din sajt på <b>24 timmar</b>. Med högsta kvalitet och full support.</p>
                 </div>
             </div>
         </div>
     </section>
-    <section>
-        <div id="handshake">
-            <svg class="content-diagonal-top" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 100 10" preserveaspectratio="none">
+    <!-- Därför section -->
+    <section class="container-fluid">
+        <div class="row bg-smoke">
+            <svg class="col-sx-12 col-md-12" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 100 10" preserveaspectratio="none">
                 <polygon class="bg-green" points="100 0 100 10 0 10" />
             </svg>
+            <div class="col-sx-12 col-md-12 bg-green">
+                <h2 class="text-center section-heading">Därför är vi <b>Sveriges snabbaste</b> webbyrå</h2>
+            </div>
         </div>
-        <div class="bg-green well" id="darfor">
-            <h2 class="text-center section-heading">Därför är vi <b>Sveriges snabbaste</b> webbyrå</h2>
+        <div class="row">
         </div>
         <div class="triangle">
         </div>
     </section>
-
-    <section id="darfor-boxes" class="bg-smoke about-list">
-
-        <div class="bg-white section-padding-md about-item">
-
-            <div class="grid-container">
-                <div class="container">
-                    <div class="col-5">
-                        <img class="svg-icon-dyn" src="../images/icons/icon-flat3d-arrow.svg" onerror="this.onerror=null; this.src='image.png'">
-                    </div>
-                    <div class="col-5">
-                        <h3 class="marketing-heading h3-to-h4">Flexibelt</h3>
-                        <p>Vårt unika nätverk av konsulter är alltid redo att kasta sig över ditt projekt. </p>
-                    </div>
+    <section class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-sx-3 col-md-5">
+                    <img class="svg-icon-dyn" src="../images/icons/icon-flat3d-arrow.svg" onerror="this.onerror=null; this.src='image.png'">
+                </div>
+                <div class="col-sx-3 col-md-5">
+                    <h3 class="text-danger">Flexibelt</h3>
+                    <p>Vårt unika nätverk av konsulter är alltid redo att kasta sig över ditt projekt. </p>
                 </div>
             </div>
         </div>
-
-        <div id="world-green" class="section-padding-md bg-green about-item">
-            <div class="grid-container">
-                <div class="container">
-                    <div class="col-5">
-                        <h3 class="marketing-heading h3-to-h4">Globalt</h3>
+        <div class="container-fluid bg-green">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sx-5 col-md-5">
+                        <h3>Globalt</h3>
                         <p>Medarbetare i fem tidszoner gör att flitens lampa alltid lyser på ASAP.</p>
                     </div>
-                    <div class="col-5">
+                    <div class="col-sx-5 col-md-5">
                         <img class="svg-icon-dyn" src="../images/icons/icon-flat3d-bullseye.svg" onerror="this.onerror=null; this.src='image.png'">
                     </div>
                 </div>
             </div>
         </div>
-
-        <div class="bg-white section-padding-md about-item">
-            <div class="grid-container">
-                <div class="container">
-                    <div class="col-5">
+        <div class="container-fluid">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sx-5 col-md-5">
                         <img class="svg-icon-dyn" src="../images/icons/icon-flat3d-bars.svg" onerror="this.onerror=null; this.src='image.png'">
                     </div>
-                    <div class="col-5">
-                        <h3 class="marketing-heading h3-to-h4">Effektivt</h3>
+                    <div class="col-sx-5 col-md-5">
+                        <h3 class="text-danger">Effektivt</h3>
                         <p>Vår superagila metod gör att vi kodar upp till tio gånger snabbare än konkurrenterna.</p>
                     </div>
                 </div>
             </div>
         </div>
-
-        <div class="bg-green section-padding-md about-item">
-            <div class="grid-container">
-                <div class="container">
-                    <div class="col-5">
-                        <h3 class="marketing-heading h3-to-h4">Non stop</h3>
+        <div class="container-fluid bg-green">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sx-5 col-md-5">
+                        <h3>Non stop</h3>
                         <p>Inga möten. Inga fikapauser. Inget julbord. Vi jobbar.</p>
                     </div>
-                    <div class="col-5">
+                    <div class="col-sx-5 col-md-6">
                         <img class="svg-icon-dyn" src="../images/icons/icon-flat3d-bulb.svg" onerror="this.onerror=null; this.src='image.png'">
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
-    <section id="questions" class="section-padding-md bg-smoke">
-        <div class="grid-container">
-            <div class="container">
-                <div class="col-4 well container-col bg-white dynamic-margin">
-                    <div class="well">
-                        <h4 class="red-text text-left">Måste produkten lanseras på direkten?</h4>
-                        <div class="container-flex-start">
-                            <div class="square bg-orange">
-                            </div>
-                            <p class="black-text text-left block">
-                                Vi har sajten klar imorgon.</p>
-                        </div>
+    <!-- questions section -->
+    <section class="container-fluid bg-smoke">
+        <div class="container">
+            <div class="row">
+                <div class="col-sx-12 col-md-4 bg-white">
+                    <h4 class="red-text text-left">Måste produkten lanseras på direkten?</h4>
+                    <div class="square bg-orange">
                     </div>
+                    <p>Vi har sajten klar imorgon.</p>
                 </div>
-                <div class="col-4 well container-col bg-white dynamic-margin">
-                    <div class="well">
-                        <h4 class="red-text text-left">Har du ett brådskande budskap att föra ut?</h4>
-                        <div class="container-flex-start">
-                            <div class="square bg-yellow">
-                            </div>
-                            <p class="black-text text-left">Vi kommunicerar ut det ASAP.</p>
-                        </div>
+                <div class="col-sx-12 col-md-4 bg-white">
+                    <h4 class="red-text text-left">Har du ett brådskande budskap att föra ut?</h4>
+                    <div class="square bg-yellow">
                     </div>
+                    <p>Vi kommunicerar ut det ASAP.</p>
                 </div>
-                <div class="col-4 well container-col bg-white dynamic-margin">
-                    <div class="well">
-                        <h4 class="red-text text-left">Är webbprojektet farligt nära deadline?</h4>
-                        <div class="container-flex-start">
-                            <div class="square bg-green">
-                            </div>
-                            <p class="black-text text-left">Vi ror det iland på nolltid.</p>
-                        </div>
+                <div class="col-sx-12 col-md-4 bg-white">
+                    <h4 class="red-text text-left">Är webbprojektet farligt nära deadline?</h4>
+                    <div class="square bg-green">
                     </div>
+                    <p>Vi ror det iland på nolltid.</p>
                 </div>
             </div>
         </div>
     </section>
-    <section id="specialister">
-        <div class="bg-red well">
-            <p class="lead headline-margin text-center white-text">ASAP är specialister på <b>responsiv webb</b>, <b>HTML</b>, <b>CSS</b> och <b>JavaScript</b>.</p>
-        </div>
-        <svg class="small-diagonal bg-red" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 100 10" preserveaspectratio="none">
+    <section class="container-fluid">
+        <div class="row">
+            <div class="col-sx-12 col-md-12 bg-red">
+                <p class="text-center white-text lead">ASAP är specialister på <b>responsiv webb</b>, <b>HTML</b>, <b>CSS</b> och <b>JavaScript</b>.</p>
+            </div>
+            <svg class="small-diagonal bg-red" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 100 10" preserveaspectratio="none">
             <polygon points="0 0 100 10 0 10" fill="white" />
         </svg>
+        </div>
     </section>
-    <section id="page-end">
-        <section class="form-section section-padding-md">
-            <div class="form-wrapper bg-smoke grid-container">
-                <div class="form-container bg-white">
-                    <h2 class="section-heading">Vi svarar innan du hinner blinka</h2>
-                    <form>
-                        <div class="container">
-                            <div class="col-5">
-                                <div class="form-group">
-                                    <label for="name">Namn</label>
-                                    <div class="form-input">
-                                        <input type="text" name="name" required="">
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <label for="email">E-mail</label>
-                                    <div class="form-input">
-                                        <input type="email" name="email" required="">
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <label>Telefon</label>
-                                    <div class="form-input">
-                                        <input type="tel"> </div>
+    <!-- form section -->
+    <section class="form-section pb-7">
+        <div class="form-wrapper bg-smoke container">
+            <div class="form-container bg-white p-5 p-sm-1 ">
+                <h2 class="text-danger section-heading text-center mb-5">Vi svarar innan du hinner blinka</h2>
+                <form>
+                    <div class="row">
+                        <div class="col-sm-6 col-md-5 push-md-1">
+                            <div class="form-group">
+                                <label for="name">Namn</label>
+                                <div class="form-input">
+                                    <input class="form-control" type="text" name="name" required="">
                                 </div>
                             </div>
-                            <div class="col-5">
-                                <div class="form-group">
-                                    <label>Meddelande</label>
-                                    <div class="form-input">
-                                        <textarea></textarea>
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <input type="submit" value="Skicka Meddelande" class="btn btn-submit">
+                            <div class="form-group">
+                                <label for="email">E-mail</label>
+                                <div class="form-input">
+                                    <input class="form-control" type="email" name="email" required="">
                                 </div>
                             </div>
+                            <div class="form-group">
+                                <label>Telefon</label>
+                                <div class="form-input">
+                                    <input class="form-control" type="tel"> </div>
+                            </div>
                         </div>
-                    </form>
-                </div>
-            </div>
-        </section>
-        <footer>
-            <div class="bg-blue">
-                <div class="grid-container">
-                    <div class="container">
-                        <div class="col-4">
-                            <h4>ASAP DEVELOPMENT</h4>
-                            <address>
-                                    Tomtebodavägen 3A<br>
-                                    171 65 Solna<br>
-                                    info@asapdev.se<br>
-                                    +46 8 466 60 00
-                                </address>
+                        <div class="col-sm-6 col-md-5 push-md-1">
+                            <div class="form-group">
+                                <label>Meddelande</label>
+                                <div class="form-input">
+                                    <textarea class="form-control" rows="4"></textarea>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <input type="submit" value="Skicka Meddelande" class="btn btn-submit btn-lg btn-block btn-outline-danger">
+                            </div>
                         </div>
-                        <div class="col-8"></div>
                     </div>
-                    <ul class="ul-social">
-                        <li><i class="fa fa-facebook-square"></i> <a href="#">Facebook</a></li>
-                        <li><i class="fa fa-twitter"></i> <a href="#">Twitter</a></li>
-                        <li><i class="fa fa-instagram"></i> <a href="#">Instagram</a></li>
-                    </ul>
-                    <a href="#" class="center-block btn btn-to-top"><i class="fa fa-angle-up"></i> </a>
-                </div>
+                </form>
             </div>
-        </footer>
-        <script src="../js/main.js"></script>
-
+        </div>
     </section>
+    <!-- END form section -->
+    <!-- footer -->
+    <footer class="site-footer bg-blue pt-5 pb-5">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4">
+                    <h4>ASAP DEVELOPMENT</h4>
+                    <address>
+							Tomtebodavägen 3A<br>
+							171 65 Solna<br>
+							info@asapdev.se<br>
+							+46 8 466 60 00
+						</address>
+                </div>
+                <div class="col-md-8"></div>
+            </div>
+            <div class="clearfix">
+                <ul class="pull-left ul-social list-unstyled list-inline">
+                    <li><i class="fa fa-facebook-square"></i> <a href="#">Facebook</a></li>
+                    <li><i class="fa fa-twitter"></i> <a href="#">Twitter</a></li>
+                    <li><i class="fa fa-instagram"></i> <a href="#">Instagram</a></li>
+                </ul>
+                <a href="#" class="pull-right btn btn-sm btn-outline-info btn-to-top"><i class="fa fa-angle-up"></i> </a>
+            </div>
+        </div>
+    </footer>
+    <!-- END footer -->
+    <script src="../js/jquery/jquery.js"></script>
+    <script src="../js/tether.js"></script>
+    <script src="../js/bootstrap.js"></script>
+    <script src="../js/nav.js"></script>
+    <!-- <script src="js/index-animate.js"></script> -->
+    <script src="../js/main.js"></script>
 </body>
 
 </html>
