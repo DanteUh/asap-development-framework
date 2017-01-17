@@ -6474,9 +6474,6 @@ header {
     #small-flash {
       display: none; } }
 
-.flash-before {
-  opacity: 0; }
-
 .flash-after {
   opacity: 1; }
 
