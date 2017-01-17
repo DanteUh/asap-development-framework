@@ -1,32 +1,30 @@
-//Layout for medarbetarnas kort
-.contact-main {
-    display: flex;
-    align-items: center;
-    //Mobil - 1 kolumn
-    @media (max-width: 48rem) {
-        flex-flow: column nowrap;
-        .contact-card {
-            width: auto;
-        }
-    }
-    //2-3 kolumner
-    @media (min-width: 48rem) {
-        flex-flow: column wrap;
-        height: 50rem;
-        align-content: space-around;
-        .contact-card {
-            width: auto;
-        }
+//Från type-dokumentet
+$base-line-height: 1.5rem;
+.section-heading {
+    font-size: 1.875rem;
+    margin-bottom: $base-line-height*2;
+    @media (min-width: 768px) {
+        font-size: 2.25rem;
+        margin-bottom: $base-line-height*2;
     }
 }
 
-// Flyttar Sonic vid 2- och 3-kolumnersläget
+//Layout for medarbetarnas kort
+.contact-main {
+    .contact-card {
+        width: auto;
+    }
+    //2-3 kolumner
+    @media (min-width: 48rem) {
+        height: 50rem;
+    }
+}
+
+// Flyttar Sonic vid 3-kolumnersläget
 .sonic {
     @media (min-width: 62rem) {
-        order: 4;
-    }
-    @media (min-width: 62rem) {
         padding-top: 9.25rem;
+        order: 4;
     }
 }
 
@@ -102,6 +100,6 @@
 //Se till att kontaktrutorna inte flyter iväg
 #contact-media-query-squasher {
     @media (min-width: 48rem) {
-        height: 48rem;
+        height: 42rem;
     }
 }

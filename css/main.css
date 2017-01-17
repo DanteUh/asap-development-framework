@@ -6729,28 +6729,24 @@ address {
 .ul-social li a:hover {
   color: #a8d6fe; }
 
-.contact-main {
-  display: flex;
-  align-items: center; }
-  @media (max-width: 48rem) {
-    .contact-main {
-      flex-flow: column nowrap; }
-      .contact-main .contact-card {
-        width: auto; } }
-  @media (min-width: 48rem) {
-    .contact-main {
-      flex-flow: column wrap;
-      height: 50rem;
-      align-content: space-around; }
-      .contact-main .contact-card {
-        width: auto; } }
+.section-heading {
+  font-size: 1.875rem;
+  margin-bottom: 3rem; }
+  @media (min-width: 768px) {
+    .section-heading {
+      font-size: 2.25rem;
+      margin-bottom: 3rem; } }
+
+.contact-main .contact-card {
+  width: auto; }
+@media (min-width: 48rem) {
+  .contact-main {
+    height: 50rem; } }
 
 @media (min-width: 62rem) {
   .sonic {
+    padding-top: 9.25rem;
     order: 4; } }
-@media (min-width: 62rem) {
-  .sonic {
-    padding-top: 9.25rem; } }
 
 @media (min-width: 62rem) {
   .max {
@@ -6802,7 +6798,7 @@ address {
 
 @media (min-width: 48rem) {
   #contact-media-query-squasher {
-    height: 48rem; } }
+    height: 42rem; } }
 
 /*
 .cirkel {
