@@ -6647,10 +6647,6 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
   max-width: 100%;
   height: auto; }
 
-.img-non-responsive {
-  width: 100%;
-  height: auto; }
-
 .bg-green {
   background-color: #5cb85c;
   fill: #5cb85c;
@@ -6749,7 +6745,7 @@ address {
       .contact-main .contact-card {
         width: auto; } }
 
-@media (min-width: 48rem) {
+@media (min-width: 62rem) {
   .sonic {
     order: 4; } }
 @media (min-width: 62rem) {
@@ -6757,7 +6753,7 @@ address {
     padding-top: 9.25rem; } }
 
 @media (min-width: 62rem) {
-  .daniel {
+  .max {
     padding-top: 9.25rem; } }
 
 .contact-background {
@@ -6774,6 +6770,7 @@ address {
   width: 19.5625rem; }
 
 .contact-card-inner {
+  width: 19.5625rem;
   display: flex;
   flex-direction: column;
   align-items: center;

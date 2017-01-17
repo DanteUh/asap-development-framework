@@ -22,7 +22,7 @@
 
 // Flyttar Sonic vid 2- och 3-kolumnersläget
 .sonic {
-    @media (min-width: 48rem) {
+    @media (min-width: 62rem) {
         order: 4;
     }
     @media (min-width: 62rem) {
@@ -30,8 +30,8 @@
     }
 }
 
-//Flyttar Daniel vid 3-kolumnersläget
-.daniel {
+//Flyttar Max vid 3-kolumnersläget
+.max {
     @media (min-width: 62rem) {
         padding-top: 9.25rem;
     }
@@ -61,7 +61,7 @@
 
 //Rutorna för text till kontaktrutorna
 .contact-card-inner {
-    //width: 19.5625rem;
+    width: 19.5625rem;
     display: flex;
     flex-direction: column;
     align-items: center;
