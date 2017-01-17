@@ -7,7 +7,6 @@ header h1{
 }
 
 .headline-margin {
-    //margin: $main-margin ($main-margin * 2);
     h1 {
         transition: color 1s ease-in-out;
     }
@@ -15,10 +14,8 @@ header h1{
 
 .section-heading {
     font-size: 1.875rem;
-    //margin-bottom: $base-line-height*2;
     @media (min-width: 768px) {
         font-size: 2.25rem;
-        //margin-bottom: $base-line-height*2;
     }
 }
 
