@@ -92,17 +92,17 @@ $body-color:    #333;
 $link-color:            $brand-primary !default;
 $link-decoration:       none !default;
 $link-hover-color:      darken($link-color, 15%) !default;
-$link-hover-decoration: underline !default;
+$link-hover-decoration: none !default;
 
 // Grid containers
 //
 // Define the maximum width of `.container` for different screen sizes.
 
 $container-max-widths: (
-  sm: 540px,
+  //sm: 540px,
   md: 720px,
-  lg: 1002px,
-  xl: 1140px
+  lg: 1002px
+  //xl: 1140px
 ) !default;
 //@include _assert-ascending($container-max-widths, "$container-max-widths");
 
@@ -178,8 +178,8 @@ $btn-padding-x:                  1rem !default;
 $btn-padding-y:                  .7rem !default;
 $btn-line-height:                1.6875 !default;
 $btn-font-weight:                $font-weight-normal !default;
-$btn-box-shadow:                 inset 0 1px 0 rgba($white,.15), 0 1px 1px rgba($black,.075) !default;
-$btn-focus-box-shadow:           0 0 0 2px rgba($brand-primary, .25) !default;
+$btn-box-shadow:                 none;
+$btn-focus-box-shadow:           none;
 $btn-active-box-shadow:          inset 0 3px 5px rgba($black,.125) !default;
 
 $btn-padding-x-sm:               .5rem !default;
@@ -197,6 +197,31 @@ $btn-border-radius-lg:           $border-radius-lg !default;
 $btn-border-radius-sm:           $border-radius-sm !default;
 
 $btn-transition:                 all .2s ease-in-out !default;
+
+$btn-info-color:                 $white !default;
+$btn-info-bg:                    $white !default;
+$btn-info-border:                $btn-info-bg !default;
+
+// Forms
+
+$input-padding-x:                1rem !default;
+$input-padding-y:                .75rem !default;
+$input-line-height:              1.25 !default;
+
+$input-bg:                       $white !default;
+$input-bg-disabled:              $gray-lighter !default;
+
+$input-color:                    $red !default;
+$input-border-color:             $red !default;
+$input-btn-border-width:         2px !default; // For form controls and buttons
+$input-box-shadow:               inset 0 1px 1px rgba($red,.075) !default;
+
+$input-border-radius:            0 !default;
+
+$input-bg-focus:                 $input-bg !default;
+$input-border-focus:             lighten($red, 15%) !default;
+$input-box-shadow-focus:         $input-box-shadow, rgba($input-border-focus, .6) !default;
+$input-color-focus:              $input-color !default;
 
 // Jumbotron
 
