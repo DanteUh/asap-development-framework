@@ -26,6 +26,15 @@
     width: 24px;
 }
 
+#siteNav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1029;
+    height: 56px; 
+}
+
 #hamburger {
     display: inline-block;
     float: right;

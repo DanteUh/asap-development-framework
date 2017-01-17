@@ -1,0 +1,34 @@
+header h1{
+    transition: font-size 0.5s ease;
+    font-size: 3rem;
+    @media (min-width: 768px) {
+        font-size: 3.75rem;
+    }
+}
+
+.headline-margin {
+    //margin: $main-margin ($main-margin * 2);
+    h1 {
+        transition: color 1s ease-in-out;
+    }
+}
+
+.section-heading {
+    font-size: 1.875rem;
+    //margin-bottom: $base-line-height*2;
+    @media (min-width: 768px) {
+        font-size: 2.25rem;
+        //margin-bottom: $base-line-height*2;
+    }
+}
+
+//LEAD / BODY TEXT
+//open sans light 18px mobile / 24px desktop
+.lead {
+    font-size: 1.125rem;
+    line-height: 2rem;
+    font-weight: 300;
+    @media (min-width: 768px) {
+        font-size: 1.5rem;
+    }
+}
