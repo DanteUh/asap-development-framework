@@ -6,11 +6,33 @@
     width: 80px;
 }
 
+.navbar-toggler {
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    font-size: 1rem;
+    line-height: 1;
+    background: transparent;
+    border: none;
+    border-radius: 0;
+    &:focus {
+        outline: none;
+    }
+}
+.navbar-toggler-right {
+    right: 0;
+}
+.navbar-inverse .navbar-toggler-icon {
+    background-image: none;
+    height: auto;
+    width: 24px;
+}
+
 #hamburger {
-    display: block;
+    display: inline-block;
     float: right;
     margin: 1.0938rem 1rem 0.9062rem 1rem;
     width: 24px;
+    height: auto;
+    vertical-align: middle;
 }
 
 #hamburger,
