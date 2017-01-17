@@ -1,4 +1,54 @@
 .btn {
 	text-transform: uppercase;
 	width: 18rem;
+    border-width: 2px;
+    border-bottom-width: 5px;
+	&:focus,
+	&.focus {
+		box-shadow: $btn-focus-box-shadow;
+	}
+
+	&:active,
+	&.active {
+
+	}
+
+	&.btn-outline-success {
+		&:hover {
+    		border-bottom-color: darken($green, 15%);
+		}
+		&:focus,
+		&.focus {
+		}
+	}
+
+	&.btn-outline-danger {
+		&:hover {
+    		border-bottom-color: darken($red, 15%);
+		}
+		&:focus,
+		&.focus {
+		}
+	}
+
+	&.btn-outline-info {
+		&:hover {
+    		border-bottom-color: darken($white, 15%);
+    		color: $blue;
+		}
+		&:focus,
+		&.focus {
+		}
+	}
+}
+
+.btn-to-top {
+    font-size: 1.5rem;
+    line-height: 1;
+    padding: 0;
+    width: 2rem;
+    border-width: 1px;
+}
+.btn-to-top i {
+    line-height: 1.75rem;
 }
