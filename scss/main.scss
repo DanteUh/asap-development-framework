@@ -22,13 +22,3 @@ body {
 .nav-link {
 	text-transform: uppercase;
 }
-
-.container-col-mobile {
-    @include flex-center(center, center, column);
-    h1 {
-        margin: 0.10rem;
-    }
-    @media (min-width: 550px) {
-        @include flex-center();
-    }
-}
