@@ -143,47 +143,54 @@
             </div>
         </div>
     </section>
+
+    <!--Karta-->
+    <!--
     <section class="karta-medarbetare">
+       -->
+    <section class="karta">
         <h2 class="section-heading text-center">Våra konsulter</h2>
+        <!--
         <img class="hide-on-mobile show-on-tablet img-responsive" src="../images/img/bg-desktop-konsulter-map@2x.jpg" alt="medarbetare">
         <img class="hide-on-desktop hide-on-tablet img-responsive" src="../images/img/bg-mobile-konsulter.jpg" alt="medarbetare">
+        -->
     </section>
 
     <!--Form-->
-    <section class="form-section section-padding-md">
-        <div class="form-wrapper bg-smoke grid-container">
-            <div class="form-container bg-white">
-                <h2 class="section-heading">Vi svarar innan du hinner blinka</h2>
+    <section class="form-section pb-7">
+        <div class="form-wrapper bg-smoke container">
+            <div class="form-container bg-white p-5 p-sm-1 ">
+                <h2 class="text-danger section-heading text-center mb-5">Vi svarar innan du hinner blinka</h2>
                 <form>
-                    <div class="container">
-                        <div class="col-5">
+                    <div class="row">
+                        <div class="col-sm-6 col-md-5 push-md-1">
                             <div class="form-group">
                                 <label for="name">Namn</label>
                                 <div class="form-input">
-                                    <input type="text" name="name" required="">
+                                    <input class="form-control" type="text" name="name" required="">
                                 </div>
                             </div>
                             <div class="form-group">
                                 <label for="email">E-mail</label>
                                 <div class="form-input">
-                                    <input type="email" name="email" required="">
+                                    <input class="form-control" type="email" name="email" required="">
                                 </div>
                             </div>
                             <div class="form-group">
                                 <label>Telefon</label>
                                 <div class="form-input">
-                                    <input type="tel"> </div>
+                                    <input class="form-control" type="tel"> </div>
                             </div>
                         </div>
-                        <div class="col-5">
+                        <div class="col-sm-6 col-md-5 push-md-1">
                             <div class="form-group">
                                 <label>Meddelande</label>
                                 <div class="form-input">
-                                    <textarea></textarea>
+                                    <textarea class="form-control" rows="4"></textarea>
                                 </div>
                             </div>
                             <div class="form-group">
-                                <input type="submit" value="Skicka Meddelande" class="btn btn-submit">
+                                <input type="submit" value="Skicka Meddelande" class="btn btn-submit btn-lg btn-block btn-outline-danger">
                             </div>
                         </div>
                     </div>
@@ -191,27 +198,30 @@
             </div>
         </div>
     </section>
-    <footer>
-        <div class="bg-blue">
-            <div class="grid-container">
-                <div class="container">
-                    <div class="col-4">
-                        <h4>ASAP DEVELOPMENT</h4>
-                        <address>
-                        Tomtebodavägen 3A<br>
-                        171 65 Solna<br>
-                        info@asapdev.se<br>
-                        +46 8 466 60 00
-                    </address>
-                    </div>
-                    <div class="col-8"></div>
+
+    <!--Footer-->
+    <footer class="site-footer bg-blue pt-5 pb-5">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4">
+                    <h4>ASAP DEVELOPMENT</h4>
+                    <address>
+							Tomtebodavägen 3A<br>
+							171 65 Solna<br>
+							info@asapdev.se<br>
+							+46 8 466 60 00
+						</address>
+
                 </div>
-                <ul class="ul-social">
+                <div class="col-md-8"></div>
+            </div>
+            <div class="clearfix">
+                <ul class="pull-left ul-social list-unstyled list-inline">
                     <li><i class="fa fa-facebook-square"></i> <a href="#">Facebook</a></li>
                     <li><i class="fa fa-twitter"></i> <a href="#">Twitter</a></li>
                     <li><i class="fa fa-instagram"></i> <a href="#">Instagram</a></li>
                 </ul>
-                <a href="#" class="center-block btn btn-to-top"><i class="fa fa-angle-up"></i> </a>
+                <a href="#" class="pull-right btn btn-sm btn-outline-info btn-to-top"><i class="fa fa-angle-up"></i> </a>
             </div>
         </div>
     </footer>
