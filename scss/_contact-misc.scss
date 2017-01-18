@@ -1,9 +1,10 @@
 .karta {
-    background-repeat: no-repeat;
-    background-size: contain;
-    padding-top: 2rem;
+    //background-repeat: no-repeat;
+    //background-size: contain;
+    //padding-top: 2rem;
     max-width: 100%;
     //Eftersom det är en rubrik på bilden använder vi media queries i css istället för srcset:
+    /*
     @media (min-width: 1280px) {
         background-image: url(../images/img/bg-desktop-konsulter-map@2x.jpg);
         height: 49.5rem;
@@ -24,8 +25,16 @@
         background-image: url(../images/img/bg-mobile-konsulter@0,5x.jpg);
         height: 21.875rem;
     }
+    */
 }
 
-.karta-medarbetare {
+.karta {
     position: relative;
+}
+.karta .section-heading {
+    color: #fff;
+    position: absolute;
+    top: 1rem;
+    left: 0;
+    right: 0;
 }
