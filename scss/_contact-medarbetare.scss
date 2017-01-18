@@ -11,27 +11,25 @@ $base-line-height: 1.5rem;
 
 //Layout for medarbetarnas kort
 .contact-main {
-    max-width: 100%;
-    .contact-card {
-        width: auto;
-    }
     //2-3 kolumner
-    @media (min-width: 48rem) {
-        height: 50rem;
+    @media (min-width: 540px) {
+        height: 46rem;
+    }
+    @media (min-width: 768px) {
+        height: 44rem;
     }
 }
 
 // Flyttar Sonic vid 2- och 3-kolumnersläget
 .sonic {
-    @media (min-width: 62rem) {
+    @media (min-width: 768px) {
         padding-top: 9.25rem;
-        order: 4;
     }
 }
 
-//Flyttar Max vid 2- och 3-kolumnersläget
-.max {
-    @media (min-width: 62rem) {
+//Flyttar Daniel vid 3-kolumnersläget
+.daniel {
+    @media (min-width: 768px) {
         padding-top: 9.25rem;
     }
 }
@@ -50,22 +48,15 @@ $base-line-height: 1.5rem;
 
 //Varje kontaktruta
 .contact-card {
-    //width: 19.5625rem;
-    margin-bottom: 6rem;
-}
-
-.contact-img {
-    width: 19.5625rem;
+    margin: 0.5rem;
+    //margin-bottom: 2rem;
 }
 
 //Rutorna för text till kontaktrutorna
 .contact-card-inner {
-    width: 19.5625rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     padding-top: 1.5625rem;
     padding-bottom: 1.9375rem;
+    text-align: center;
     a,
     i {
         color: $gray-dark;
@@ -101,6 +92,5 @@ $base-line-height: 1.5rem;
 //Se till att kontaktrutorna inte flyter iväg
 #contact-media-query-squasher {
     @media (min-width: 48rem) {
-        height: 42rem;
     }
 }
