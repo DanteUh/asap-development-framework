@@ -7496,6 +7496,9 @@ textarea {
   margin-left: auto;
   margin-right: auto; }
 
+.green-text {
+  color: #45b29d; }
+
 .hem .projekt .section-heading {
   margin-bottom: 2.25rem; }
 
@@ -7548,30 +7551,30 @@ textarea {
     right: 0;
     top: 0; }
 
-.quote-section .quote img {
+.quote img {
   height: 50px; }
 
-.quote-section .quote-text-box {
+.quote-text-box {
   font-size: 1.125rem;
   padding: 1.5rem 0;
   border-bottom: 1px black solid;
   border-color: #44697d; }
-  .quote-section .quote-text-box.last {
+  .quote-text-box.last {
     border-bottom: none; }
   @media (min-width: 768px) {
-    .quote-section .quote-text-box {
+    .quote-text-box {
       border-style: none; } }
 
 .quote-text {
   font-style: italic; }
 
-.quote-person {
+.quote-name {
   color: #45b29d;
   font-weight: normal;
   margin-bottom: 0; }
 
-.quote-section .container:last-child {
-  border-color: none; }
+.border-none {
+  border-bottom: 0px; }
 
 section.om-oss .section-heading {
   color: #45b29d; }
