@@ -1,4 +1,4 @@
-header h1{
+header h1 {
     transition: font-size 0.5s ease;
     font-size: 3rem;
     @media (min-width: 768px) {
@@ -28,4 +28,9 @@ header h1{
     @media (min-width: 768px) {
         font-size: 1.5rem;
     }
+}
+
+.lg-body-text {
+    font-size: $font-size-lg;
+    line-height: $line-height-sm;
 }
