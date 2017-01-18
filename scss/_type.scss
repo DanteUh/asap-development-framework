@@ -1,44 +1,51 @@
-header h1 {
-    transition: font-size 0.5s ease;
-    font-size: 3rem;
-    @media (min-width: 768px) {
-        font-size: 3.75rem;
+    header h1 {
+        transition: font-size 0.5s ease;
+        font-size: 3rem;
+        @media (min-width: 768px) {
+            font-size: 3.75rem;
+        }
     }
-}
-
-.headline-margin {
-    h1 {
-        transition: color 1s ease-in-out;
+    
+    .headline-margin {
+        h1 {
+            transition: color 1s ease-in-out;
+        }
     }
-}
-
-.section-heading {
-    font-size: 1.875rem;
-    @media (min-width: 768px) {
-        font-size: 2.25rem;
+    
+    .section-heading {
+        font-size: 1.875rem;
+        @media (min-width: 768px) {
+            font-size: 2.25rem;
+        }
     }
-}
-
-//LEAD / BODY TEXT
-//open sans light 18px mobile / 24px desktop
-.lead {
-    font-size: 1.125rem;
-    line-height: 2rem;
-    font-weight: 300;
-    @media (min-width: 768px) {
-        font-size: 1.5rem;
+    
+    .h3-to-h4 {
+        font-size: $font-size-h4;
+        @media screen and (min-width: 768px) {
+            font-size: $font-size-h3;
+        }
     }
-}
-
-.lg-body-text {
-    font-size: $font-size-lg;
-    line-height: $line-height-sm;
-}
-
-.lg-to-def-body-text {
-    font-size: $font-size-base;
-    @media screen and (min-width: 768px) {
+    
+    //LEAD / BODY TEXT
+    //open sans light 18px mobile / 24px desktop
+    .lead {
+        font-size: 1.125rem;
+        line-height: 2rem;
+        font-weight: 300;
+        @media (min-width: 768px) {
+            font-size: 1.5rem;
+        }
+    }
+    
+    .lg-body-text {
         font-size: $font-size-lg;
         line-height: $line-height-sm;
     }
-}
+    
+    .lg-to-def-body-text {
+        font-size: $font-size-base;
+        @media screen and (min-width: 768px) {
+            font-size: $font-size-lg;
+            line-height: $line-height-sm;
+        }
+    }
