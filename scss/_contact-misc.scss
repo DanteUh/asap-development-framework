@@ -25,53 +25,7 @@
         height: 21.875rem;
     }
 }
+
 .karta-medarbetare {
     position: relative;
-}
-.karta-medarbetare .section-heading {
-    color: #fff;
-    position: absolute;
-    top: 1rem;
-    left: 0;
-    right: 0;
-}
-
-//Texten efter headern på kontakt-sidan:
-.contact-story-text {
-    margin-bottom: 2.5rem;
-}
-
-#contact-story {
-    margin-left: 3rem;
-    margin-right: 3rem;
-    @media (min-width: 480px) {
-        max-width: 30rem;
-    }
-    @media (min-width: 768px) {
-        margin-left: 10rem;
-        margin-right: 4rem;
-    }
-}
-
-#contact-circle {
-    margin-top: 3rem;
-    margin-bottom: 6.5rem;
-    height: 10.5rem;
-    width: 10.5rem;
-    @media (min-width: 768px) {
-        height: 12rem;
-        width: 12rem;
-    }
-}
-
-#contact-circle-text {
-    margin-top: 2rem;
-}
-
-#contact-story-positioner {
-    display: flex;
-flex-flow: column nowrap;
-@media (min-width: 768px) {
-    flex-flow: row nowrap;
-}
 }
