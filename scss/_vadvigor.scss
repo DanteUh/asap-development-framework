@@ -62,38 +62,6 @@ section.om-oss {
     }
 }
 
-#darfor,
-#darfor-boxes {
-    position: relative;
-    top: -60px;
-    @media screen and (min-width: 768px) {
-        position: static;
-    }
-}
-
-#darfor {
-    .section-heading {
-        margin-bottom: 1.5rem;
-    }
-}
-
-#questions,
-#specialister {
-    position: relative;
-    top: -100px;
-    @media screen and (min-width: 768px) {
-        top: -40px;
-    }
-}
-
-#page-end {
-    position: relative;
-    top: -148px;
-    @media screen and (min-width: 768px) {
-        top: -40px;
-    }
-}
-
 #world-green {
     background: url("../images/img/about-globalt-dsktop-bg@2x.jpg");
     background-size: cover;
@@ -126,4 +94,12 @@ section.om-oss {
 .block {
     display: block;
     float: right;
+}
+
+.border-smoke {
+    border-bottom: 0.5rem solid $gray-lighter;
+    @media screen and (min-width: 768px) {
+        border-bottom: 0;
+        border-right: 1rem solid $gray-lighter;
+    }
 }
