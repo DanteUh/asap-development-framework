@@ -7123,6 +7123,13 @@ header h1 {
   font-size: 1.125rem;
   line-height: 1.5; }
 
+.lg-to-def-body-text {
+  font-size: 1rem; }
+  @media screen and (min-width: 768px) {
+    .lg-to-def-body-text {
+      font-size: 1.125rem;
+      line-height: 1.5; } }
+
 .bg-transparent {
   background-color: transparent; }
 
@@ -7597,12 +7604,7 @@ section.om-oss .section-heading {
     width: auto; }
 
 #handshake {
-  display: flex;
-  align-content: center;
-  justify-content: flex-end;
-  flex-direction: column;
-  position: relative;
-  top: -60px;
+  padding: 0;
   background-position: -200px 0px;
   width: 100%;
   height: 200px;
@@ -7611,9 +7613,8 @@ section.om-oss .section-heading {
   background-image: url("../images/img/sektion-darfor-desktop@2x.jpg"); }
   @media screen and (min-width: 768px) {
     #handshake {
-      background-image: url("../images/img/sektion-darfor-desktop@2x.jpg");
       background-position: 0 0;
-      position: static; } }
+      margin-top: 3.75rem !important; } }
 
 .content-diagonal-top {
   display: block;

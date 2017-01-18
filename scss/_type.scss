@@ -34,3 +34,11 @@ header h1 {
     font-size: $font-size-lg;
     line-height: $line-height-sm;
 }
+
+.lg-to-def-body-text {
+    font-size: $font-size-base;
+    @media screen and (min-width: 768px) {
+        font-size: $font-size-lg;
+        line-height: $line-height-sm;
+    }
+}
