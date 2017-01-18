@@ -7680,6 +7680,79 @@ section.om-oss .section-heading {
   display: block;
   float: right; }
 
+.section-heading {
+  font-size: 1.875rem;
+  margin-bottom: 3rem; }
+  @media (min-width: 768px) {
+    .section-heading {
+      font-size: 2.25rem;
+      margin-bottom: 3rem; } }
+
+.contact-main {
+  max-width: 100%; }
+  .contact-main .contact-card {
+    width: auto; }
+  @media (min-width: 48rem) {
+    .contact-main {
+      height: 50rem; } }
+
+@media (min-width: 62rem) {
+  .sonic {
+    padding-top: 9.25rem;
+    order: 4; } }
+
+@media (min-width: 62rem) {
+  .max {
+    padding-top: 9.25rem; } }
+
+.contact-background {
+  padding-bottom: 4rem; }
+
+.contact-section p {
+  font-size: 1.125rem;
+  line-height: 2; }
+
+.contact-card {
+  margin-bottom: 6rem; }
+
+.contact-img {
+  width: 19.5625rem; }
+
+.contact-card-inner {
+  width: 19.5625rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 1.5625rem;
+  padding-bottom: 1.9375rem; }
+  .contact-card-inner a,
+  .contact-card-inner i {
+    color: #333; }
+
+.contact-title {
+  color: #777777;
+  margin: 0rem 0rem 0.875rem 0rem; }
+
+.contact-heading {
+  font-size: 1.5rem;
+  margin: 0;
+  color: #df5a49; }
+
+.contact-card-inner div i {
+  font-size: 1.3rem; }
+
+#contact-heading {
+  padding-bottom: 6rem;
+  padding-top: 5.75rem; }
+  @media (min-width: 62rem) {
+    #contact-heading {
+      padding-top: 9.375rem;
+      padding-bottom: 3.75rem; } }
+
+@media (min-width: 48rem) {
+  #contact-media-query-squasher {
+    height: 42rem; } }
+
 .nav-link {
   text-transform: uppercase; }
 

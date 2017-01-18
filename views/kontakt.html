@@ -81,13 +81,15 @@
 
     <!--Kontaktrutor-->
     <section class="bg-smoke contact-background section-padding-md">
-        <div class="grid-container">
+        <div class="container">
             <h2 class="red-text section-heading text-center">Möt våra medarbetare</h2>
             <div id="contact-media-query-squasher">
-                <div class="contact-main">
+                <div class="contact-main d-flex flex-column flex-md-column flex-lg-column flex-wrap align-items-center align-content-md-between row">
 
-                    <div class="contact-card sonic col-4">
-                        <img class="img-responsive" src="../images/img/medarbetare-sonic.jpg" alt="Sonic" />
+
+                    <!--Sonic-->
+                    <div class="contact-card sonic col-md-6 col-lg-4 order-lg-last">
+                        <img class="contact-img" src="../images/img/medarbetare-sonic.jpg" alt="Sonic" />
                         <div class="bg-white contact-card-inner">
                             <h3 class="contact-heading">Sonikku za Hejjihoggu</h3>
                             <p class="contact-title">Webbutveckling & Support</p>
@@ -97,8 +99,9 @@
                         </div>
                     </div>
 
-                    <div class="contact-card col-4">
-                        <img class="img-responsive" src="../images/img/medarbetare-max.jpg" alt="Max Rockatansky" />
+                    <!--Max-->
+                    <div class="contact-card max col-md-6 col-lg-4">
+                        <img class="contact-img" src="../images/img/medarbetare-max.jpg" alt="Max Rockatansky" />
                         <div class="bg-white contact-card-inner">
                             <h3 class="contact-heading">Max Rockatansky</h3>
                             <p class="contact-title">Emergency Transporter</p>
@@ -108,24 +111,30 @@
                         </div>
                     </div>
 
-                    <div class="contact-card col-4">
-                        <img class="img-responsive" src="../images/img/medarbetare-barry.jpg" alt="Barry Allen" />
-                        <div class="bg-white contact-card-inner">
-                            <h3 class="contact-heading">Barry Allen</h3>
-                            <p class="contact-title">Tech Scientist</p>
-                            <div>
-                                <i class="fa fa-envelope "></i> <a href="http://www.overheardinnewyork.com/" class="">barry@asap.com</a>
+
+                    <div class="d-flex flex-column flex-md-row flex-lg-column justify-content-md-around">
+                        <!--Barry-->
+                        <div class="contact-card col-lg-4">
+                            <img class="contact-img" src="../images/img/medarbetare-barry.jpg" alt="Barry Allen" />
+                            <div class="bg-white contact-card-inner">
+                                <h3 class="contact-heading">Barry Allen</h3>
+                                <p class="contact-title">Tech Scientist</p>
+                                <div>
+                                    <i class="fa fa-envelope "></i> <a href="http://www.overheardinnewyork.com/" class="">barry@asap.com</a>
+                                </div>
                             </div>
                         </div>
-                    </div>
 
-                    <div class="contact-card daniel col-4">
-                        <img class="img-responsive" src="../images/img/medarbetare-daniel.jpg" alt="Daneil Morales" />
-                        <div class="bg-white contact-card-inner">
-                            <h3 class="contact-heading">Daniel Morales</h3>
-                            <p class="contact-title">Emergency Transporter</p>
-                            <div>
-                                <i class="fa fa-envelope "></i> <a href="http://www.funnyordie.com/" class="">daniel@asap.com</a>
+
+                        <!--Daniel-->
+                        <div class="contact-card daniel col-lg-4">
+                            <img class="contact-img" src="../images/img/medarbetare-daniel.jpg" alt="Daneil Morales" />
+                            <div class="bg-white contact-card-inner">
+                                <h3 class="contact-heading">Daniel Morales</h3>
+                                <p class="contact-title">Emergency Transporter</p>
+                                <div>
+                                    <i class="fa fa-envelope "></i> <a href="http://www.funnyordie.com/" class="">daniel@asap.com</a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -134,7 +143,6 @@
             </div>
         </div>
     </section>
-
     <section class="karta-medarbetare">
         <h2 class="section-heading text-center">Våra konsulter</h2>
         <img class="hide-on-mobile show-on-tablet img-responsive" src="../images/img/bg-desktop-konsulter-map@2x.jpg" alt="medarbetare">
