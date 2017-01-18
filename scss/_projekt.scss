@@ -1,3 +1,7 @@
+.green-text {
+    color: $green;
+}
+
 .hem .projekt .section-heading {
     margin-bottom: 2.25rem;  
 }
@@ -76,11 +80,11 @@
     //@include flex-center();
 }
 
-.quote-section .quote img {
+.quote img {
     height: 50px;
 }
 
-.quote-section .quote-text-box {
+.quote-text-box {
     font-size: 1.125rem;
     padding: 1.5rem 0;
     border-bottom: 1px black solid;
@@ -96,12 +100,12 @@
 .quote-text {
     font-style: italic;
 }
-.quote-person {
+.quote-name {
     color: $green;
     font-weight: normal;
     margin-bottom: 0;
 }
 
-.quote-section .container:last-child {
-    border-color: none;
+.border-none {
+    border-bottom: 0px;
 }
