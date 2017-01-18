@@ -6737,11 +6737,13 @@ address {
       font-size: 2.25rem;
       margin-bottom: 3rem; } }
 
-.contact-main .contact-card {
-  width: auto; }
-@media (min-width: 48rem) {
-  .contact-main {
-    height: 50rem; } }
+.contact-main {
+  max-width: 100%; }
+  .contact-main .contact-card {
+    width: auto; }
+  @media (min-width: 48rem) {
+    .contact-main {
+      height: 50rem; } }
 
 @media (min-width: 62rem) {
   .sonic {

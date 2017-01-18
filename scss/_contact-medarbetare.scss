@@ -11,6 +11,7 @@ $base-line-height: 1.5rem;
 
 //Layout for medarbetarnas kort
 .contact-main {
+    max-width: 100%;
     .contact-card {
         width: auto;
     }
@@ -20,7 +21,7 @@ $base-line-height: 1.5rem;
     }
 }
 
-// Flyttar Sonic vid 3-kolumnersläget
+// Flyttar Sonic vid 2- och 3-kolumnersläget
 .sonic {
     @media (min-width: 62rem) {
         padding-top: 9.25rem;
@@ -28,7 +29,7 @@ $base-line-height: 1.5rem;
     }
 }
 
-//Flyttar Max vid 3-kolumnersläget
+//Flyttar Max vid 2- och 3-kolumnersläget
 .max {
     @media (min-width: 62rem) {
         padding-top: 9.25rem;
