@@ -7503,6 +7503,9 @@ textarea {
   margin-left: auto;
   margin-right: auto; }
 
+.green-text {
+  color: #45b29d; }
+
 .hem .projekt .section-heading {
   margin-bottom: 2.25rem; }
 
@@ -7555,30 +7558,30 @@ textarea {
     right: 0;
     top: 0; }
 
-.quote-section .quote img {
+.quote img {
   height: 50px; }
 
-.quote-section .quote-text-box {
+.quote-text-box {
   font-size: 1.125rem;
   padding: 1.5rem 0;
   border-bottom: 1px black solid;
   border-color: #44697d; }
-  .quote-section .quote-text-box.last {
+  .quote-text-box.last {
     border-bottom: none; }
   @media (min-width: 768px) {
-    .quote-section .quote-text-box {
+    .quote-text-box {
       border-style: none; } }
 
 .quote-text {
   font-style: italic; }
 
-.quote-person {
+.quote-name {
   color: #45b29d;
   font-weight: normal;
   margin-bottom: 0; }
 
-.quote-section .container:last-child {
-  border-color: none; }
+.border-none {
+  border-bottom: 0px; }
 
 section.om-oss .section-heading {
   color: #45b29d; }
@@ -7680,6 +7683,108 @@ section.om-oss .section-heading {
 .block {
   display: block;
   float: right; }
+
+.section-heading {
+  font-size: 1.875rem;
+  margin-bottom: 3rem; }
+  @media (min-width: 768px) {
+    .section-heading {
+      font-size: 2.25rem;
+      margin-bottom: 3rem; } }
+
+.contact-main {
+  max-width: 100%; }
+  .contact-main .contact-card {
+    width: auto; }
+  @media (min-width: 48rem) {
+    .contact-main {
+      height: 50rem; } }
+
+@media (min-width: 62rem) {
+  .sonic {
+    padding-top: 9.25rem;
+    order: 4; } }
+
+@media (min-width: 62rem) {
+  .max {
+    padding-top: 9.25rem; } }
+
+.contact-background {
+  padding-bottom: 4rem; }
+
+.contact-section p {
+  font-size: 1.125rem;
+  line-height: 2; }
+
+.contact-card {
+  margin-bottom: 6rem; }
+
+.contact-img {
+  width: 19.5625rem; }
+
+.contact-card-inner {
+  width: 19.5625rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 1.5625rem;
+  padding-bottom: 1.9375rem; }
+  .contact-card-inner a,
+  .contact-card-inner i {
+    color: #333; }
+
+.contact-title {
+  color: #777777;
+  margin: 0rem 0rem 0.875rem 0rem; }
+
+.contact-heading {
+  font-size: 1.5rem;
+  margin: 0;
+  color: #df5a49; }
+
+.contact-card-inner div i {
+  font-size: 1.3rem; }
+
+#contact-heading {
+  padding-bottom: 6rem;
+  padding-top: 5.75rem; }
+  @media (min-width: 62rem) {
+    #contact-heading {
+      padding-top: 9.375rem;
+      padding-bottom: 3.75rem; } }
+
+@media (min-width: 48rem) {
+  #contact-media-query-squasher {
+    height: 42rem; } }
+
+.karta {
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-top: 2rem;
+  max-width: 100%; }
+  @media (min-width: 1280px) {
+    .karta {
+      background-image: url(../images/img/bg-desktop-konsulter-map@2x.jpg);
+      height: 49.5rem; } }
+  @media (min-width: 640px) and (max-width: 1280px) {
+    .karta {
+      background-image: url(../images/img/bg-desktop-konsulter-map.jpg);
+      height: 24.75rem; } }
+  @media (min-width: 480px) and (max-width: 640px) {
+    .karta {
+      background-image: url(../images/img/bg-desktop-konsulter-map@0,5x.jpg);
+      height: 12.375rem; } }
+  @media (min-width: 240px) and (max-width: 480px) {
+    .karta {
+      background-image: url(../images/img/bg-mobile-konsulter.jpg);
+      height: 43.6875rem; } }
+  @media (max-width: 240px) {
+    .karta {
+      background-image: url(../images/img/bg-mobile-konsulter@0,5x.jpg);
+      height: 21.875rem; } }
+
+.karta-medarbetare {
+  position: relative; }
 
 .nav-link {
   text-transform: uppercase; }
