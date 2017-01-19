@@ -49,3 +49,8 @@
             line-height: $line-height-sm;
         }
     }
+    
+    $transparent: rgba(255, 255, 255, 0);
+    .transparent-text {
+        color: $transparent
+    }
