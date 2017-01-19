@@ -74,7 +74,7 @@ section.om-oss {
 .svg-icon-dyn {
     height: 72px;
     width: auto;
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 480px) {
         height: 120px;
     }
 }
