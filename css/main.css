@@ -7668,7 +7668,7 @@ section.om-oss .section-heading {
 .svg-icon-dyn {
   height: 72px;
   width: auto; }
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 480px) {
     .svg-icon-dyn {
       height: 120px; } }
 
