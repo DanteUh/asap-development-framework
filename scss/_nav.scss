@@ -47,6 +47,25 @@
     }
 }
 
-.nav-link {
+.navbar .navbar-nav .nav-link {
     text-transform: uppercase;
+    @media (min-width: 768px) {
+        padding-top: 0.7rem;
+        padding-bottom: 0.3rem;
+        border-bottom: 2px solid transparent;
+        &:hover {
+            border-bottom: 2px solid white;
+        }
+        margin-right: 1rem;
+    }
+}
+
+.navbar .navbar-nav .nav-item:last-child .nav-link {
+    margin-right: 0;
+}
+
+.navbar .active .nav-link {
+    @media (min-width: 768px) {
+        border-bottom: 2px solid white;
+    }
 }
