@@ -43,12 +43,27 @@
 }
 
 .btn-to-top {
-    font-size: 1.5rem;
+    background-color: darken($blue, 5%);
+    border-width: 1px;
+    border-color: lighten($blue, 10%);
+    font-size: 2rem;
     line-height: 1;
     padding: 0;
-    width: 2rem;
-    border-width: 1px;
+    color: white;
+    width: 2.5rem;
+    &:hover,
+    &:focus {
+	    background-color: darken($blue, 10%);
+	    border-color: lighten($blue, 10%);
+	    border-width: 1px;
+	    transition: 0.5s;
+	    color: lighten($blue, 5%);
+    }
+
 }
 .btn-to-top i {
-    line-height: 1.75rem;
+    line-height: 2rem;
+}
+.btn-lg {
+	font-size: 1rem;
 }

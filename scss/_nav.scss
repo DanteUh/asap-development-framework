@@ -27,12 +27,7 @@
 }
 
 #siteNav {
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    z-index: 1029;
-    height: 56px; 
+    transition: all 0.3s linear; 
 }
 
 #hamburger {
@@ -50,4 +45,8 @@
     &:hover {
         transform: scale(1.05);
     }
+}
+
+.nav-link {
+    text-transform: uppercase;
 }

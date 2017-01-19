@@ -223,6 +223,12 @@ $input-border-focus:             lighten($red, 15%) !default;
 $input-box-shadow-focus:         $input-box-shadow, rgba($input-border-focus, .6) !default;
 $input-color-focus:              $input-color !default;
 
+// Navbar
+
+$navbar-inverse-color:                 rgba($white, 1) !default;
+$navbar-inverse-hover-color:           rgba($white,.75) !default;
+$navbar-inverse-active-color:          rgba($white,.75) !default;
+
 // Jumbotron
 
 $jumbotron-padding:              2rem !default;

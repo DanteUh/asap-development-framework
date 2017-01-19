@@ -41,8 +41,8 @@ form {
 }
 
 textarea {
-    height: $spacer*8;
-    @media (min-width: 768px) {
-         height: 10.275rem;
+    height: $spacer*10;
+    @media (min-width: 576px) {
+         height: 10.3rem;
         }
 }

@@ -10,14 +10,14 @@
 
 <body>
     <!-- Nav section -->
-    <nav class="navbar navbar-inverse fixed-top navbar-toggleable-sm bg-transparent">
+    <nav id="siteNav" class="navbar navbar-inverse fixed-top navbar-toggleable-sm bg-transparent">
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"><img src="../images/svg/icon-hamburger.svg" alt="hamburger menu"></span> </button>
-        <a class="navbar-brand" href="#"><img id="logo" src="../images/svg/asap-logo-02.svg" alt="ASAP logo"></a>
+        <a class="navbar-brand" href="../index.html"><img id="logo" src="../images/svg/asap-logo-02.svg" alt="ASAP logo"></a>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <div class="mr-auto"></div>
             <ul class="navbar-nav">
-                <li class="nav-item active"> <a class="nav-link" href="vad-vi-gor.html">Vad vi gör</a> </li>
-                <li class="nav-item"> <a class="nav-link" href="kundcase.html">Kundcase</a> </li>
+                <li class="nav-item"> <a class="nav-link" href="vad-vi-gor.html">Vad vi gör</a> </li>
+                <li class="nav-item active"> <a class="nav-link" href="kundcase.html">Kundcase</a> </li>
                 <li class="nav-item"> <a class="nav-link" href="kontakt.html">Kontakt</a> </li>
             </ul>
         </div>
@@ -58,12 +58,12 @@
             </div>
             <div class="container d-flex flex-lg-row align-items-lg-center">
                 <div class="row">
-                    <div class="col-md-7">
+                    <div class="col-md-5">
                         <img class="img-fluid" src="../images/img/projekt-logo-mob-dunder_mifflin.jpg" alt="Dunder Mifflin" />
                     </div>
-                    <div class="col-md-5">
-                        <h3 class="mt-5">Vandelay Industries</h3>
-                        <p>Alla utvecklare på latexföretaget Vandelay blev magsjuka. ASAPs personal ryckte in omgående.</p>
+                    <div class="col-md-7">
+                        <h3>Dunder Mifflins</h3>
+                        <p>Pappersföretaget Dunder Mifflin behövde bli mer responsiva. Det fixade vi över natten.</p>
                     </div>
                 </div>
             </div>
@@ -100,11 +100,11 @@
             </div>
             <div class="container">
                 <div class="row">
-                    <div class="col-md-7">
+                    <div class="col-md-5">
                         <img class="img-fluid" src="../images/img/projekt-logo-dsktop-vandelay.jpg" alt="Vandelay Industries" />
                     </div>
-                    <div class="col-md-5">
-                        <h3 class="mt-5">Vandelay Industries</h3>
+                    <div class="col-md-7">
+                        <h3>Vandelay Industries</h3>
                         <p>Alla utvecklare på latexföretaget Vandelay blev magsjuka. ASAPs personal ryckte in omgående.</p>
                     </div>
                 </div>
@@ -113,34 +113,33 @@
     </section>
     <!--//End Project Section-->
     <!--Quote Section-->
-    <section class="bg-blue p-1 pt-7 pb-7">
+    <section class="bg-blue pt-7 pb-7">
         <div class="quote d-flex justify-content-center mb-5">
             <img src="../images/svg/icon-quote.svg" alt="citat">
         </div>
-        <div class="container text-center">
-            <h2 class="section-heading green-text">Så säger våra kunder</h2>
-        </div>
-        
-        <div class="quote-section d-md-flex justify-content-lg-center flex-md-row pt-5 mr-2 ml-2">
-            <div class="quote-text-box mr-7">
-                <p class="quote-text">“Webbsidan blev klar medan jag drack kaffe.”</p>
-                <p class="quote-name">- Tony Stark</p>
-            </div>
-            <div class="quote-text-box mr-7">
-                <p class="quote-text">”Tänk om allt gick så fort som det gör för ASAP”</p>
-                <p class="quote-name">- Bruce Wayne</p>
-            </div>
-            <div class="border-none quote-text-box">
-                <p class="quote-text">“Time is money, friend.”</p>
-                <p class="quote-name">- Scrooge McDuck</p>
+        <div class="container">
+            <h2 class="section-heading green-text text-center">Så säger våra kunder</h2>   
+            <div class="quote-section row lg-body-text">
+                <div class="quote-text-box col-sm-4 py-4">
+                    <p class="quote-text">“Webbsidan blev klar medan jag drack kaffe.”</p>
+                    <p class="quote-name">- Tony Stark</p>
+                </div>
+                <div class="quote-text-box col-sm-4 py-4">
+                    <p class="quote-text">”Tänk om allt gick så fort som det gör för ASAP”</p>
+                    <p class="quote-name">- Bruce Wayne</p>
+                </div>
+                <div class="border-none quote-text-box col-sm-4 py-4">
+                    <p class="quote-text">“Time is money, friend.”</p>
+                    <p class="quote-name">- Scrooge McDuck</p>
+                </div>
             </div>
         </div>
     </section>
     <!--//End Quote Section-->
     <!--Form Section-->
-    <section class="form-section pb-7 pt-7">
+    <section class="form-section pb-md-7 pt-md-7">
         <div class="form-wrapper bg-smoke container">
-            <div class="form-container bg-white p-5 p-sm-1 ">
+            <div class="form-container bg-white p-5 p-md-1">
                 <h2 class="text-danger section-heading text-center mb-5">Vi svarar innan du hinner blinka</h2>
                 <form>
                     <div class="row">
@@ -195,7 +194,7 @@
                     <li><i class="fa fa-facebook-square"></i> <a href="#">Facebook</a></li>
                     <li><i class="fa fa-twitter"></i> <a href="#">Twitter</a></li>
                     <li><i class="fa fa-instagram"></i> <a href="#">Instagram</a></li>
-                </ul> <a href="#" class="pull-right btn btn-sm btn-outline-info btn-to-top"><i class="fa fa-angle-up"></i> </a> </div>
+                </ul> <a href="#" class="pull-right btn btn-sm btn-to-top"><i class="fa fa-angle-up"></i> </a> </div>
         </div>
     </footer>
     <!--//End Footer Section-->

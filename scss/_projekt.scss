@@ -70,14 +70,11 @@
 }
 
 .quote-section .quote-header {
-    @media (min-width: 768px) {
-        //@include flex-center();
-    }
+
 }
 
 .quote-section .quote {
-    //padding: $main-padding;
-    //@include flex-center();
+
 }
 
 .quote img {
@@ -85,15 +82,12 @@
 }
 
 .quote-text-box {
-    font-size: 1.125rem;
-    padding: 1.5rem 0;
-    border-bottom: 1px black solid;
-    border-color: lighten( $blue, 10%);
+    border-bottom: 1px lighten( $blue, 10%) solid;
     &.last {
         border-bottom: none; 
     }
-    @media (min-width: 768px) {
-        border-style: none;
+    @media (min-width: 576px) {
+        border: none;
     }
 }
 

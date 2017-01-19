@@ -12,8 +12,8 @@ $base-line-height: 1.5rem;
 //Layout for medarbetarnas kort
 .contact-main {
     //2-3 kolumner
-    @media (min-width: 540px) {
-        height: 46rem;
+    @media (min-width: 576px) {
+        height: 44rem;
     }
     @media (min-width: 768px) {
         height: 44rem;
