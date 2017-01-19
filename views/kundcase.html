@@ -24,6 +24,29 @@
     </nav>
     <!-- //End nav section -->
     <!--Header Section-->
+    <nav class="navbar navbar-inverse fixed-top navbar-toggleable-sm bg-transparent">
+		<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"><img src="../images/svg/icon-hamburger.svg" alt="hamburger menu"></span>
+		</button>
+		<a class="navbar-brand" href="../index.html"><img id="logo" src="../images/svg/asap-logo-02.svg" alt="ASAP logo"></a>
+
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+		<div class="mr-auto"></div>
+			<ul class="navbar-nav">
+				<li class="nav-item active">
+					<a class="nav-link" href="vad-vi-gor.html">Vad vi gör</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="kundcase.html">Kundcase</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="kontakt.html">Kontakt</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+    <!-- //End nav section -->
+    
     <header>
 		<div id="kundcase-bg" class="text-white text-center">
 			<div class="main-headline-box d-flex align-content-center justify-content-end flex-column">
@@ -64,6 +87,9 @@
                     <div class="col-md-7">
                         <h3>Dunder Mifflins</h3>
                         <p>Pappersföretaget Dunder Mifflin behövde bli mer responsiva. Det fixade vi över natten.</p>
+                        <div class="mt-lg-7 mt-5">
+                            <a href="#" class="btn btn-lg btn-outline-success">Till Sidan</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -79,9 +105,12 @@
             </div>
             <div class="container">
                 <div class="row">
-                    <div class="col-md-7">
+                    <div class="col-md-7 mb-5">
                         <h3>LexCorp</h3>
                         <p>Koncernen LexCorp behövde informera om ett olyckligt kemiskt utsläpp. Självklart valde de ASAP.</p>
+                        <div class="mt-lg-7 mt-4">
+                            <a href="#" class="btn btn-lg btn-outline-info">Till Sidan</a>
+                        </div>
                     </div>
                     <div class="col-md-5">
                         <img class="img-fluid" src="../images/img/projekt-logo-mob-lexcorp.jpg" alt="Lexcorp" />
@@ -99,13 +128,16 @@
                 <img src="../images/svg/alert-circle-projekt-left.svg" alt="På plats inom 2 timmar" />
             </div>
             <div class="container">
-                <div class="row">
+                <div class="row d-sm-flex justify-content-sm-center">
                     <div class="col-md-5">
                         <img class="img-fluid" src="../images/img/projekt-logo-dsktop-vandelay.jpg" alt="Vandelay Industries" />
                     </div>
-                    <div class="col-md-7">
+                    <div class="d-lg-flex flex-lg-column justify-content-lg-start col-md-7">
                         <h3>Vandelay Industries</h3>
                         <p>Alla utvecklare på latexföretaget Vandelay blev magsjuka. ASAPs personal ryckte in omgående.</p>
+                        <div class="mt-lg-7 mt-5">
+                            <a href="#" class="btn btn-lg btn-outline-success">Till Sidan</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -178,10 +210,11 @@
     <!--//End Form Section-->
     <!--Footer Section-->
     <footer class="site-footer bg-blue pt-5 pb-5">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-4">
-                    <h4>ASAP DEVELOPMENT</h4> <address>
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-4">
+						<h4>ASAP DEVELOPMENT</h4>
+						<address>
 							Tomtebodavägen 3A<br>
 							171 65 Solna<br>
 							info@asapdev.se<br>
@@ -190,14 +223,16 @@
                 <div class="col-md-8"></div>
             </div>
             <div class="clearfix">
-                <ul class="pull-left ul-social list-unstyled list-inline">
-                    <li><i class="fa fa-facebook-square"></i> <a href="#">Facebook</a></li>
-                    <li><i class="fa fa-twitter"></i> <a href="#">Twitter</a></li>
-                    <li><i class="fa fa-instagram"></i> <a href="#">Instagram</a></li>
-                </ul> <a href="#" class="pull-right btn btn-sm btn-to-top"><i class="fa fa-angle-up"></i> </a> </div>
-        </div>
-    </footer>
-    <!--//End Footer Section-->
+					<ul class="pull-left ul-social list-unstyled list-inline">
+						<li><i class="fa fa-facebook-square"></i> <a href="#">Facebook</a></li>
+						<li><i class="fa fa-twitter"></i> <a href="#">Twitter</a></li>
+						<li><i class="fa fa-instagram"></i> <a href="#">Instagram</a></li>
+					</ul>
+					<a href="#" class="pull-right btn btn-primary btn-to-top"><i class="fa fa-angle-up"></i> </a>
+				</div>
+			</div>
+		</footer>
+		<!--//End Footer Section-->
     <script src="../js/jquery/jquery.js"></script>
     <script src="../js/tether.js"></script>
     <script src="../js/bootstrap.js"></script>
