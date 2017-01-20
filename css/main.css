@@ -7312,7 +7312,7 @@ header {
     #small-flash {
       display: none; } }
 
-.flash-before {
+.hem .flash-before {
   opacity: 0; }
 
 .flash-after {
@@ -7538,7 +7538,7 @@ address {
   position: absolute;
   bottom: -1.5rem;
   right: 50%;
-  margin-left: 1.25rem; }
+  margin-left: -1.25rem; }
   @media (min-width: 768px) {
     .btn-to-top {
       bottom: 0;
