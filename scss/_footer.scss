@@ -22,6 +22,10 @@ address {
 }
 
 .ul-social {
+    margin-bottom: 2.5rem;
+    @media (min-width: 768px) {
+        margin-bottom: 0;
+    }
 }
 
 .ul-social li {
@@ -40,9 +44,10 @@ address {
 .btn-to-top {
     position: absolute;
     bottom: -1.5rem;
-    left: 50%;
-    margin-left: -1.25rem;
+    right: 50%;
+    margin-left: 1.25rem;
     @media (min-width: 768px) {
+        bottom: 0;
         right: 1rem;
         margin-left: 0;
     }

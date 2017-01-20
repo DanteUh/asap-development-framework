@@ -7168,8 +7168,15 @@ header h1 {
       font-size: 1.125rem;
       line-height: 1.5; } }
 
+.lg-body-text-static {
+  font-size: 1.125rem;
+  line-height: 2rem; }
+
 .transparent-text {
   color: rgba(255, 255, 255, 0); }
+
+b, strong {
+  font-weight: 700; }
 
 .bg-transparent {
   background-color: transparent; }
@@ -7233,11 +7240,11 @@ header h1 {
   background-color: #293f4b;
   border-width: 1px;
   border-color: #44697d;
-  font-size: 2rem;
+  font-size: 2.25rem;
   line-height: 1;
   padding: 0;
   color: white;
-  width: 2.5rem; }
+  width: 3rem; }
   .btn-to-top:hover, .btn-to-top:focus {
     background-color: #20313b;
     border-color: #44697d;
@@ -7246,7 +7253,7 @@ header h1 {
     color: #3b5b6d; }
 
 .btn-to-top i {
-  line-height: 2rem; }
+  line-height: 2.5rem; }
 
 .btn-lg, .btn-group-lg > .btn {
   font-size: 1rem; }
@@ -7511,6 +7518,12 @@ address {
   color: #ababab;
   line-height: 2; }
 
+.ul-social {
+  margin-bottom: 2.5rem; }
+  @media (min-width: 768px) {
+    .ul-social {
+      margin-bottom: 0; } }
+
 .ul-social li {
   display: inline; }
 
@@ -7524,10 +7537,11 @@ address {
 .btn-to-top {
   position: absolute;
   bottom: -1.5rem;
-  left: 50%;
-  margin-left: -1.25rem; }
+  right: 50%;
+  margin-left: 1.25rem; }
   @media (min-width: 768px) {
     .btn-to-top {
+      bottom: 0;
       right: 1rem;
       margin-left: 0; } }
 
@@ -7580,29 +7594,15 @@ textarea {
   .inner-circle p {
     margin: 0; }
 
-.contact-section .container-col.inner-circle,
-.var-story .container-col.inner-circle {
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-content: center;
-      -ms-flex-line-pack: center;
-          align-content: center;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-flex-direction: column;
-      -ms-flex-direction: column;
-          flex-direction: column; }
-
 .contact-section .circle-wrapper,
 .var-story .circle-wrapper {
+  padding-top: 1.5rem;
   margin: 0 auto;
-  width: 80%; }
-  @media (min-width: 480px) {
+  width: 70%; }
+  @media (min-width: 540px) {
     .contact-section .circle-wrapper,
     .var-story .circle-wrapper {
-      width: 60%; } }
+      width: 50%; } }
   @media (min-width: 768px) {
     .contact-section .circle-wrapper,
     .var-story .circle-wrapper {
@@ -7842,32 +7842,30 @@ section.om-oss .section-heading {
       padding-bottom: 3.75rem; } }
 
 .karta {
-  max-width: 100%;
-  /*
-    @media (min-width: 1280px) {
-        background-image: url(../images/img/bg-desktop-konsulter-map@2x.jpg);
-        height: 49.5rem;
-    }
-    @media (min-width: 640px) and (max-width: 1280px) {
-        background-image: url(../images/img/bg-desktop-konsulter-map.jpg);
-        height: 24.75rem;
-    }
-    @media (min-width: 480px) and (max-width: 640px) {
-        background-image: url(../images/img/bg-desktop-konsulter-map@0,5x.jpg);
-        height: 12.375rem;
-    }
-    @media(min-width: 240px) and (max-width: 480px) {
-        background-image: url(../images/img/bg-mobile-konsulter.jpg);
-        height: 43.6875rem;
-    }
-    @media (max-width: 240px) {
-        background-image: url(../images/img/bg-mobile-konsulter@0,5x.jpg);
-        height: 21.875rem;
-    }
-    */ }
+  position: relative;
+  height: 0;
+  width: 100%;
+  padding-bottom: 145.625%; }
+  @media (min-width: 768px) {
+    .karta {
+      padding-bottom: 30.9375%; } }
 
-.karta {
-  position: relative; }
+.karta-inner {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  max-width: 100%; }
+  @media (min-width: 768px) {
+    .karta-inner {
+      background-image: url(../images/img/bg-desktop-konsulter-map@2x.jpg); } }
+  @media (min-width: 240px) and (max-width: 767px) {
+    .karta-inner {
+      background-image: url(../images/img/bg-mobile-konsulter@2x.jpg); } }
+  @media (max-width: 239px) {
+    .karta-inner {
+      background-image: url(../images/img/bg-mobile-konsulter@0,5x.jpg); } }
 
 .karta .section-heading {
   color: #fff;
