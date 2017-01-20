@@ -7131,8 +7131,8 @@ header h1 {
     header h1 {
       font-size: 3.75rem; } }
 
-.headline-margin h1 {
-  transition: color 1s ease-in-out; }
+.headline-margin h1 span {
+  transition: color 0.3s ease-in-out; }
 
 .section-heading {
   font-size: 1.875rem; }
@@ -7304,6 +7304,9 @@ header {
   @media screen and (min-width: 550px) {
     #small-flash {
       display: none; } }
+
+.flash-before {
+  opacity: 0; }
 
 .flash-after {
   opacity: 1; }

@@ -10,17 +10,20 @@ var timesRun = 0;
 var interval = setInterval(function() {
     indexHeader[timesRun].setAttribute("class", "white-text");
     timesRun++;
-    if (timesRun === 3) {
+    if (timesRun === 4) {
         clearInterval(interval);
         displayFlash();
     }
-}, 800);
+}, 400);
 
 
 function displayFlash() {
     largeFlash.setAttribute("class", "flash-after");
-    smallFlash.setAttribute("class", "flash-after");
+    largeFlash.setAttribute("class", "align-self-center");
+    smallFlash.classList.add('flash-after');
 }
+
+
 
 
 
