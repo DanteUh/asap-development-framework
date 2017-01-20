@@ -1,16 +1,3 @@
-/*
-.cirkel {
-    //Av någon anledning fungerade inte $green...
-    background-color: #45b29d;
-    fill: #45b29d;
-    border-radius: 50%;
-    @include flex-center;
-    align-items: center;
-    padding: 1rem;
-    text-align: center;
-}
-*/
-
 .circle {
     height: 0;
     width: 100%;
@@ -23,6 +10,9 @@
     position: absolute;
     width: 100%;
     height: 100%;
+    p {
+        margin: 0;
+    }
 }
 
 .contact-section .container-col.inner-circle,
