@@ -21,10 +21,13 @@
         text-align: left;
         min-height: 21.875rem;
     }
-
-    p {
-        font-size: 1.125rem;
-        line-height: 2;
+    .img-fluid{
+       padding-top: 1.5rem;
+       padding-bottom: 1.5rem;
+        @media (min-width: 768px) {
+            padding-top: 0;
+            padding-bottom: 0;
+        }
     }
 }
 
