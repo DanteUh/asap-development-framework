@@ -7156,8 +7156,11 @@ header h1 {
       font-size: 1.5rem; } }
 
 .lg-body-text {
-  font-size: 1.125rem;
-  line-height: 1.5; }
+  font-size: 1rem; }
+  @media screen and (min-width: 768px) {
+    .lg-body-text {
+      font-size: 1.125rem;
+      line-height: 1.5; } }
 
 .lg-to-def-body-text {
   font-size: 1rem; }
