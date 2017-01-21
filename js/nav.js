@@ -28,8 +28,8 @@ if (typeof jQuery === 'undefined') {
 	$('#mainNavigation').on('show.bs.collapse', function () {
 		navBar.classList.remove('bg-transparent');
   		navBar.classList.add('bg-primary');		
-  		$('.navbar-toggler-icon').hide();
-  		$('.nav-close').show();
+  		$('#open').hide();
+  		$('#close').show();
 	});
 
 	$('#mainNavigation').on('hidden.bs.collapse', function () {
@@ -37,8 +37,8 @@ if (typeof jQuery === 'undefined') {
         	navBar.classList.remove('bg-primary');
         	navBar.classList.add('bg-transparent') ;	
         }
-        	$('.nav-close').hide();
-  			$('.navbar-toggler-icon').show();
+        	$('#close').hide();
+  			$('#open').show();
 	});
 
 

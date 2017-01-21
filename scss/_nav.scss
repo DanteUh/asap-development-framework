@@ -49,18 +49,6 @@
     }
 }
 
-.nav-close {
-    position: absolute;
-    top: 1rem;
-    right: 1rem;
-    font-size: 2rem;
-    line-height: 1;
-    width: 24px;
-    height: 21px;
-    display: none;
-    margin-top: -1rem;
-}
-
 .navbar-collapse {
     @media (max-width: 767px) {
         background-color: $blue;

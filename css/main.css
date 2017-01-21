@@ -7483,17 +7483,6 @@ header {
         -ms-transform: scale(1.05);
             transform: scale(1.05); }
 
-.nav-close {
-  position: absolute;
-  top: 1rem;
-  right: 1rem;
-  font-size: 2rem;
-  line-height: 1;
-  width: 24px;
-  height: 21px;
-  display: none;
-  margin-top: -1rem; }
-
 @media (max-width: 767px) {
   .navbar-collapse {
     background-color: #324d5c;
