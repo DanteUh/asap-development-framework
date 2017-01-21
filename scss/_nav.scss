@@ -28,7 +28,8 @@
 }
 
 #siteNav {
-    transition: all 0.3s linear; 
+    //transition: all 0.3s linear; 
+    transition: background-color 0.35s ease-out;
 }
 
 #hamburger {
@@ -48,25 +49,83 @@
     }
 }
 
-.navbar .navbar-nav .nav-link {
-    text-transform: uppercase;
-    @media (min-width: 768px) {
-        padding-top: 0.7rem;
-        padding-bottom: 0.3rem;
-        border-bottom: 2px solid transparent;
-        &:hover {
-            border-bottom: 2px solid white;
+.nav-close {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 2rem;
+    line-height: 1;
+    width: 24px;
+    height: 21px;
+    display: none;
+    margin-top: -1rem;
+}
+
+.navbar-collapse {
+    @media (max-width: 768px) {
+        background-color: $blue;
+        border-top: solid 1px lighten($blue, 5%);
+        border-bottom: solid 1px lighten($blue, 5%);
+        //padding-top: 1rem;
+        margin-top: 0.5rem;
+        margin-bottom: -0.5rem;
+        margin-left: -$grid-gutter-width-base / 2;
+        margin-right: -$grid-gutter-width-base / 2;
+        @media (min-width: 768px) {
+            margin-left: 0;
+            margin-right: 0;
         }
-        margin-right: 1rem;
+        box-shadow: 0 3px 9px rgba($black,.5);
     }
 }
 
-.navbar .navbar-nav .nav-item:last-child .nav-link {
-    margin-right: 0;
-}
+.navbar-inverse .navbar-nav {
 
-.navbar .active .nav-link {
-    @media (min-width: 768px) {
-        border-bottom: 2px solid white;
+    .nav-link {
+        padding-right: 0;
+        padding-left: 0;
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+
+        text-align: center;
+        text-transform: uppercase;
+
+        &:hover {
+            color: $green;
+            background-color: darken($blue, 3%);
+        }
+
+        @media (min-width: 768px) {
+            text-align: left;
+            padding-top: 0.7rem;
+            padding-bottom: 0.3rem;
+            margin-right: 1rem;
+            border-bottom: 2px solid transparent;
+            &:hover {
+                color: $white;
+                background-color: transparent; 
+                border-bottom: 2px solid white;
+            }
+        }
+    }
+    .nav-item {
+        &.active {
+            .nav-link {
+                color: $green;
+                background-color: darken($blue, 3%);
+
+                @media (min-width: 768px) {
+                    background-color: transparent;
+                    border-bottom: 2px solid white;
+                    color: #fff;
+                }
+            }
+        }
+        &:last-child .nav-link {
+            @media (min-width: 768px) {
+            margin-right: 0;
+            }
+        }
     }
 }
+
