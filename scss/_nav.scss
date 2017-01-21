@@ -62,7 +62,7 @@
 }
 
 .navbar-collapse {
-    @media (max-width: 768px) {
+    @media (max-width: 767px) {
         background-color: $blue;
         border-top: solid 1px lighten($blue, 5%);
         border-bottom: solid 1px lighten($blue, 5%);
@@ -76,6 +76,7 @@
             margin-right: 0;
         }
         box-shadow: 0 3px 9px rgba($black,.5);
+        //box-shadow: 0 1px 2px rgba(0,0,0,.1);
     }
 }
 
