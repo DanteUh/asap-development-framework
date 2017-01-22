@@ -42,6 +42,10 @@
 	}
 }
 
+.btn-sm {
+	width: auto;
+}
+
 .btn-to-top {
     background-color: darken($blue, 5%);
     border-width: 1px;
@@ -66,8 +70,4 @@
 }
 .btn-lg {
 	font-size: 1rem;
-}
-
-.btn-sm {
-	width: auto;
 }

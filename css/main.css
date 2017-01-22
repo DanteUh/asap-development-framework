@@ -7236,6 +7236,9 @@ b, strong {
     border-bottom-color: #d9d9d9;
     color: #324d5c; }
 
+.btn-sm, .btn-group-sm > .btn {
+  width: auto; }
+
 .btn-to-top {
   background-color: #293f4b;
   border-width: 1px;
@@ -7257,9 +7260,6 @@ b, strong {
 
 .btn-lg, .btn-group-lg > .btn {
   font-size: 1rem; }
-
-.btn-sm, .btn-group-sm > .btn {
-  width: auto; }
 
 header {
   width: 100%;
