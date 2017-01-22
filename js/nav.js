@@ -15,7 +15,7 @@ if (typeof jQuery === 'undefined') {
 	function navbarBg() {
 		if( ! $('#mainNavigation').hasClass('show')) {
 		    var viewPort = document.getElementsByTagName('header')[0];
-		    if (document.body.scrollTop > (60) || document.documentElement.scrollTop > (60)) {
+		    if (document.body.scrollTop > (60) || window.pageYOffset > (60) || document.documentElement.scrollTop > (60) ) {
 		    	navBar.classList.remove('bg-transparent');
 		        navBar.classList.add('bg-primary') ;
 		    } else {
@@ -33,12 +33,16 @@ if (typeof jQuery === 'undefined') {
 	});
 
 	$('#mainNavigation').on('hidden.bs.collapse', function () {
-		if (document.body.scrollTop < (60)) {
-        	navBar.classList.remove('bg-primary');
-        	navBar.classList.add('bg-transparent') ;	
+		if ( document.body.scrollTop > 60 || window.pageYOffset > 60 || document.documentElement.scrollTop > 60) {
+			console.log(document.body.scrollTop);
+			console.log(window.pageYOffset);
+			console.log(document.documentElement.scrollTop);
+		} else {
+    		navBar.classList.remove('bg-primary');
+    		navBar.classList.add('bg-transparent') ;	
         }
-        	$('#close').hide();
-  			$('#open').show();
+    	$('#close').hide();
+		$('#open').show();
 	});
 
 
