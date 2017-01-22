@@ -7460,19 +7460,11 @@ header {
 
 .navbar-inverse .navbar-toggler-icon {
   background-image: none;
-  height: auto;
-  width: 24px; }
+  width: 1.5rem;
+  height: 1.5rem; }
 
 #siteNav {
   transition: background-color 0.35s ease-out; }
-
-#hamburger {
-  display: inline-block;
-  float: right;
-  margin: 1.0938rem 1rem 0.9062rem 1rem;
-  width: 24px;
-  height: auto;
-  vertical-align: middle; }
 
 #hamburger,
 #logo {
@@ -7492,7 +7484,7 @@ header {
     margin-bottom: -0.5rem;
     margin-left: -16px;
     margin-right: -16px;
-    box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5); } }
+    box-shadow: 0 3px 9px rgba(0, 0, 0, 0.3); } }
   @media (max-width: 767px) and (min-width: 768px) {
     .navbar-collapse {
       margin-left: 0;
