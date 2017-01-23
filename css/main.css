@@ -7248,7 +7248,8 @@ header {
   height: 28%; }
 
 .diagonal-bottom-fix {
-  margin-top: -1px; }
+  margin-top: -1px;
+  width: 100%; }
 
 .hem .header-diagonal-bottom p {
   margin-top: -2rem; }
@@ -7814,6 +7815,9 @@ section.om-oss .section-heading {
     .border-smoke {
       border-bottom: 0;
       border-right: 1rem solid #e8e8e8; } }
+
+.max-width {
+  max-width: 100%; }
 
 @media (min-width: 576px) {
   .contact-main {
