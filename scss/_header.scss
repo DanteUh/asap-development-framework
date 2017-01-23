@@ -74,7 +74,7 @@
     
     // De olika sidornas bakgrundsbilder          
     #index-bg {
-        background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url("../images/img/header-desktop-hem-3@2x.jpg");
+        background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url("../images/img/header-desktop-hem-3.jpg");
         background-position: center top;
         @include header-img;
         @media only screen and (min-width: 768px) {
@@ -83,7 +83,7 @@
     }
     
     #vad-vi-gor-bg {
-        background-image: url("../images/img/header-desktop-vad-vi-gor@2x.jpg");
+        background-image: url("../images/img/header-desktop-vad-vi-gor.jpg");
         background-position: center bottom 75px;
         @include header-img;
         @media only screen and (min-width: 768px) {
@@ -93,11 +93,11 @@
     
     #kundcase-bg {
         //background-image: url("../images/img/header-mobile-kundcase@2x.jpg");
-        background-image: url("../images/img/header-desktop-kundcase@2x.jpg");
+        background-image: url("../images/img/header-desktop-kundcase.jpg");
         background-position: center center;
         @include header-img;
         @media screen and (min-width: 480px) {
-            background-image: url("../images/img/header-desktop-kundcase@2x.jpg");
+            background-image: url("../images/img/header-desktop-kundcase.jpg");
         }
         @media only screen and (min-width: 768px) {
             background-attachment: fixed;
@@ -110,5 +110,5 @@
     #kontakt-bg {
         @include header-img;
         background-position: center bottom;
-        background-image: url("../images/img/header-desktop-kontakt@2x.jpg");
+        background-image: url("../images/img/header-desktop-kontakt.jpg");
     }

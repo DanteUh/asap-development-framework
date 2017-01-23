@@ -7284,7 +7284,7 @@ header {
   opacity: 1; }
 
 #index-bg {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), transparent), url("../images/img/header-desktop-hem-3@2x.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.5), transparent), url("../images/img/header-desktop-hem-3.jpg");
   background-position: center top;
   position: relative;
   background-size: cover;
@@ -7305,7 +7305,7 @@ header {
       background-attachment: fixed; } }
 
 #vad-vi-gor-bg {
-  background-image: url("../images/img/header-desktop-vad-vi-gor@2x.jpg");
+  background-image: url("../images/img/header-desktop-vad-vi-gor.jpg");
   background-position: center bottom 75px;
   position: relative;
   background-size: cover;
@@ -7326,7 +7326,7 @@ header {
       background-attachment: fixed; } }
 
 #kundcase-bg {
-  background-image: url("../images/img/header-desktop-kundcase@2x.jpg");
+  background-image: url("../images/img/header-desktop-kundcase.jpg");
   background-position: center center;
   position: relative;
   background-size: cover;
@@ -7344,7 +7344,7 @@ header {
   flex-direction: column; }
   @media screen and (min-width: 480px) {
     #kundcase-bg {
-      background-image: url("../images/img/header-desktop-kundcase@2x.jpg"); } }
+      background-image: url("../images/img/header-desktop-kundcase.jpg"); } }
   @media only screen and (min-width: 768px) {
     #kundcase-bg {
       background-attachment: fixed; } }
@@ -7368,7 +7368,7 @@ header {
   justify-content: flex-end;
   flex-direction: column;
   background-position: center bottom;
-  background-image: url("../images/img/header-desktop-kontakt@2x.jpg"); }
+  background-image: url("../images/img/header-desktop-kontakt.jpg"); }
 
 .site-logo {
   float: left;
