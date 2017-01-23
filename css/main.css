@@ -7458,8 +7458,11 @@ header {
   width: 1.5rem;
   height: 1.5rem; }
 
-#siteNav {
-  transition: background-color 0.35s ease-out; }
+#siteNav.bg-primary {
+  transition: background-color 0.15s ease; }
+
+#siteNav.bg-transparent {
+  transition: background-color 0.35s ease; }
 
 #hamburger,
 #logo {
