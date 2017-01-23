@@ -7314,7 +7314,7 @@ header {
   opacity: 1; }
 
 #index-bg {
-  background: url("../images/img/header-desktop-hem-3@2x.jpg");
+  background-image: url("../images/img/header-desktop-hem-3@2x.jpg");
   background-position: center top;
   position: relative;
   background-size: cover;
