@@ -7776,18 +7776,6 @@ section.om-oss .section-heading {
       .small-diagonal polygon {
         fill: #fff; } }
 
-#poly-white {
-  display: none; }
-  @media screen and (min-width: 768px) {
-    #poly-white {
-      display: block; } }
-
-#poly-smoke {
-  display: block; }
-  @media screen and (min-width: 768px) {
-    #poly-smoke {
-      display: none; } }
-
 #world-green {
   background: url("../images/img/about-globalt-dsktop-bg@2x.jpg");
   background-size: cover; }

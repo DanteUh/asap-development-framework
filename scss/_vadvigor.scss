@@ -68,6 +68,20 @@ section.om-oss {
     }
 }
 
+#poly-white {
+    display: none;
+    @media screen and (min-width: 768px) {
+        display: block;
+    }
+}
+
+#poly-smoke {
+    display: block;
+    @media screen and (min-width: 768px) {
+        display: none;
+    }
+}
+
 #world-green {
     background: url("../images/img/about-globalt-dsktop-bg@2x.jpg");
     background-size: cover;
