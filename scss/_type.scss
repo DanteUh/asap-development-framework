@@ -7,8 +7,8 @@
     }
     
     .headline-margin {
-        h1 span{
-            transition: color 0.3s ease-in-out;
+        h1 span {
+            transition: color 0.5s ease-in-out;
         }
     }
     
@@ -52,7 +52,7 @@
             line-height: $line-height-sm;
         }
     }
-
+    
     //18 px across
     .lg-body-text-static {
         font-size: 1.125rem;
@@ -63,7 +63,8 @@
     .transparent-text {
         color: $transparent
     }
-
-    b, strong {
+    
+    b,
+    strong {
         font-weight: 700;
     }
