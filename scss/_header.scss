@@ -45,7 +45,6 @@
         height: auto;
         display: none;
         transition: opacity 1s ease-in-out;
-        //480px
         @media screen and (min-width: 550px) {
             display: block;
         }
@@ -58,7 +57,6 @@
         width: 38px;
         height: auto;
         transition: all 1s ease-in-out;
-        //480px
         @media screen and (min-width: 550px) {
             display: none;
         }
@@ -74,7 +72,6 @@
     
     // De olika sidornas bakgrundsbilder          
     #index-bg {
-        //background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url("../images/img/header-desktop-hem-3@2x.jpg");
         background-image: url("../images/img/header-desktop-hem-3@2x.jpg");
         background-position: center top;
         @include header-img;
@@ -93,7 +90,6 @@
     }
     
     #kundcase-bg {
-        //background-image: url("../images/img/header-mobile-kundcase@2x.jpg");
         background-image: url("../images/img/header-desktop-kundcase@2x.jpg");
         background-position: center center;
         @include header-img;

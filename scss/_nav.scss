@@ -1,7 +1,8 @@
-.site-logo { 
+.site-logo {
     float: left;
     padding: 1.1rem 1rem 0.70rem 1rem;
 }
+
 #logo {
     width: 80px;
     height: 25px;
@@ -18,9 +19,11 @@
         outline: none;
     }
 }
+
 .navbar-toggler-right {
     right: 0;
 }
+
 .navbar-inverse .navbar-toggler-icon {
     background-image: none;
     width: 1.5rem;
@@ -28,7 +31,7 @@
 }
 
 #siteNav {
-    &.bg-primary {  
+    &.bg-primary {
         transition: background-color 0.15s ease;
     }
     &.bg-transparent {
@@ -49,7 +52,6 @@
         background-color: $blue;
         border-top: solid 1px lighten($blue, 5%);
         border-bottom: solid 1px lighten($blue, 5%);
-        //padding-top: 1rem;
         margin-top: 0.5rem;
         margin-bottom: -0.5rem;
         margin-left: -$grid-gutter-width-base / 2;
@@ -58,26 +60,22 @@
             margin-left: 0;
             margin-right: 0;
         }
-        box-shadow: 0 3px 9px rgba($black,.3);
+        box-shadow: 0 3px 9px rgba($black, .3);
     }
 }
 
 .navbar-inverse .navbar-nav {
-
     .nav-link {
         padding-right: 0;
         padding-left: 0;
         padding-top: 1.5rem;
         padding-bottom: 1.5rem;
-
         text-align: center;
         text-transform: uppercase;
-
         &:hover {
             color: $green;
             background-color: darken($blue, 3%);
         }
-
         @media (min-width: 768px) {
             text-align: left;
             padding-top: 0.7rem;
@@ -86,7 +84,7 @@
             border-bottom: 2px solid transparent;
             &:hover {
                 color: $white;
-                background-color: transparent; 
+                background-color: transparent;
                 border-bottom: 2px solid white;
             }
         }
@@ -96,7 +94,6 @@
             .nav-link {
                 color: $green;
                 background-color: darken($blue, 3%);
-
                 @media (min-width: 768px) {
                     background-color: transparent;
                     border-bottom: 2px solid white;
@@ -106,9 +103,8 @@
         }
         &:last-child .nav-link {
             @media (min-width: 768px) {
-            margin-right: 0;
+                margin-right: 0;
             }
         }
     }
 }
-
