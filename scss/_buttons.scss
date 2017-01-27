@@ -31,10 +31,44 @@
 		}
 	}
 
+	&.btn-outline-primary {
+		&:hover {
+    		border-bottom-color: darken($blue, 10%);
+    		color: $white;
+		}
+		&:focus,
+		&.focus {
+		}
+	}
+
+	&.btn-primary {
+		border-bottom-color: darken($blue, 5%);
+		&:hover {
+			background-color: lighten($blue, 5%);
+			border-color: lighten($blue, 5%);
+			border-bottom-color: $blue;
+    		color: $white;
+		}
+		&:focus,
+		&.focus {
+		}
+	}
+
 	&.btn-outline-info {
 		&:hover {
-    		border-bottom-color: darken($white, 15%);
-    		color: $blue;
+    		border-bottom-color: darken($brand-info, 10%);
+    		color: $white;	
+		}
+		&:focus,
+		&.focus {
+		}
+	}
+
+	&.btn-info {
+		border-bottom-color: darken($brand-info, 10%);
+		&:hover {
+    		color: $white;
+    		border-bottom-color: darken($brand-info, 20%);
 		}
 		&:focus,
 		&.focus {

@@ -16,10 +16,11 @@ $gray : #464a4c !default;
 $gray-light : #636c72 !default;
 $gray-lighter : #e8e8e8 !default;
 $gray-lightest : #f7f7f9 !default;
+
 // Reassign color vars to semantic color scheme
 $brand-primary : $blue !default;
 $brand-success : $green !default;
-//$brand-info:                $teal !default;
+$brand-info:     $gray-light !default;
 $brand-warning : $orange !default;
 $brand-danger : $red !default;
 $brand-inverse : $gray-dark !default;
@@ -135,9 +136,11 @@ $btn-border-radius : $border-radius !default;
 $btn-border-radius-lg : $border-radius-lg !default;
 $btn-border-radius-sm : $border-radius-sm !default;
 $btn-transition : all .2s ease-in-out !default;
+
 $btn-info-color : $white !default;
-$btn-info-bg : $white !default;
+$btn-info-bg : $brand-info !default;
 $btn-info-border : $btn-info-bg !default;
+
 // Forms
 $input-padding-x : 1rem !default;
 $input-padding-y : .75rem !default;
